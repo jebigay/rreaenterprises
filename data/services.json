@@ -1,0 +1,39 @@
+{
+    "services": [
+      {
+        "name": "CCTV Surveillance",
+        "link": "services/cctv.php",
+        "description": "Enabling your workforce with top-notch technologies isn’t just important, but imperative for business success. This customizable solution allows your team to work seamlessly and collaboratively in a protected space.",
+        "image": "img/services/cctv.svg",
+        "show": true
+      },
+      {
+        "name": "QuickBooks",
+        "link": "services/quickbooks.php",
+        "description": "We provide QuickBooks System software installation, server and user setup, retention fee-based maintenance, and a range of add-on services.",
+        "image": "img/services/quickbooks.svg",
+        "show": true
+      },
+      {
+        "name": "ICT",
+        "link": "services/ict.php",
+        "description": "We offer Information Communication Technology services for computer and laptop repair and supply services, including software and hardware support, Windows Server installation and configuration, networking setup, and ongoing maintenance through retention fees.",
+        "image": "img/services/ict.svg",
+        "show": true
+      },
+      {
+        "name": "Website Development",
+        "link": "services/webdev.php",
+        "description": "Host your website with us on a scalable, secure infrastructure geared towards our Web Design and Development. A completely integrated solution at a very affordable and flexible monthly cost.",
+        "image": "img/services/webdev.svg",
+        "show": false
+      },
+      {
+        "name": "Solar Power System",
+        "link": "services/solar.php",
+        "description": "t is now time to conserve energy and no to shocking electric bills. We conduct free assessment to know your demands and to facilitate better solar power system at a very reasonable price. Satisfaction guaranteed for 10-20 years of durability that we provide.",
+        "image": "img/services/solar.svg",
+        "show": false
+      }
+    ]
+  }

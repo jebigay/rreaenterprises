@@ -1,0 +1,351 @@
+{
+    "channelGroups": [
+        {
+            "channel": "4-channel",
+            "packages": [
+                {
+                    "type": "Analog 2MP",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                            "link": "files/cctv/4channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 2MP Dome Camera_INDOOR",
+                            "link": "files/cctv/4channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog-XVR 4CH 1-Sata 4TB",
+                            "link": "files/cctv/4channel/2MP/DATASHEET_Analog-XVR_4ch_1-Sata4TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/4channel/2MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/4channel/2MP/CCTV Quotation-4ch_ANALOG_2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Analog 5MP",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 5MP Camera_OUTDOOR",
+                            "link": "files/cctv/4channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP Camera_INDOOR",
+                            "link": "files/cctv/4channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP-XVR 4CH 1-Sata 10TB",
+                            "link": "files/cctv/4channel/5MP/DATASHEET_Analog-5MP_XVR_4ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/4channel/5MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/4channel/5MP/CCTV Quotation-4ch_ANALOG_5MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 2MP",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "files": [
+                        {
+                            "name": "5 Port POE Switch",
+                            "link": "files/cctv/4channel/IP_2MP/DATASHEET_5-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_INDOOR",
+                            "link": "files/cctv/4channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_OUTDOOR",
+                            "link": "files/cctv/4channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP NVR 4CH 1-Sata 10TB",
+                            "link": "files/cctv/4channel/IP_2MP/DATASHEET_IP-2MP_NVR_4ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/4channel/IP_2MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/4channel/IP_2MP/CCTV Quotation-IP_4ch Package 2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 4MP",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "files": [
+                        {
+                            "name": "5 Port POE Switch",
+                            "link": "files/cctv/4channel/IP_4MP/DATASHEET_5-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_INDOOR",
+                            "link": "files/cctv/4channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_OUTDOOR",
+                            "link": "files/cctv/4channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 5MP NVR 8CH 1-Sata 10TB",
+                            "link": "files/cctv/4channel/IP_4MP/DATASHEET_IP-5MP_NVR_4ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/4channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/4channel/IP_4MP/CCTV Quotation-IP_4ch Package 4MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "channel": "8-channel",
+            "packages": [
+                {
+                    "type": "Analog 2MP",
+                    "image": "img/services/cctv/8channel/8channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                            "link": "files/cctv/8channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 2MP Dome Camera_INDOOR",
+                            "link": "files/cctv/8channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog-XVR 8CH 1-Sata 4TB",
+                            "link": "files/cctv/8channel/2MP/DATASHEET_Analog-XVR_8ch_1-Sata4TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/8channel/2MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/8channel/2MP/CCTV Quotation-8ch_ANALOG_2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Analog 5MP",
+                    "image": "img/services/cctv/8channel/8channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 5MP Camera_OUTDOOR",
+                            "link": "files/cctv/8channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP Camera_INDOOR",
+                            "link": "files/cctv/8channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP-XVR 8CH 1-Sata 10TB",
+                            "link": "files/cctv/8channel/5MP/DATASHEET_Analog-5MP_XVR_8ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/8channel/5MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/8channel/5MP/CCTV Quotation-8ch_ANALOG_5MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 2MP",
+                    "image": "img/services/cctv/8channel/8channel.svg",
+                    "files": [
+                        {
+                            "name": "8 Port POE Switch",
+                            "link": "files/cctv/8channel/IP_2MP/DATASHEET_8-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_INDOOR",
+                            "link": "files/cctv/8channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_OUTDOOR",
+                            "link": "files/cctv/8channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP NVR 8CH 1-Sata 10TB",
+                            "link": "files/cctv/8channel/IP_2MP/DATASHEET_IP-2MP_NVR_8ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/8channel/IP_2MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/8channel/IP_2MP/CCTV Quotation-IP_8ch Package 2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 4MP",
+                    "image": "img/services/cctv/8channel/8channel.svg",
+                    "files": [
+                        {
+                            "name": "8 Port POE Switch",
+                            "link": "files/cctv/8channel/IP_4MP/DATASHEET_8-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_INDOOR",
+                            "link": "files/cctv/8channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_OUTDOOR",
+                            "link": "files/cctv/8channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 4MP NVR 8CH 1-Sata 10TB",
+                            "link": "files/cctv/8channel/IP_4MP/DATASHEET_IP-4MP_NVR_8ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/8channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/8channel/IP_4MP/CCTV Quotation-IP_8ch Package 4MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "channel": "16-channel",
+            "packages": [
+                {
+                    "type": "Analog 2MP",
+                    "image": "img/services/cctv/16channel/16channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                            "link": "files/cctv/16channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 2MP Dome Camera_INDOOR",
+                            "link": "files/cctv/16channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog-XVR 16CH 1-Sata 10TB",
+                            "link": "files/cctv/16channel/2MP/DATASHEET_Analog-XVR_16ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/16channel/2MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/16channel/2MP/CCTV Quotation-16ch_ANALOG_2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Analog 5MP",
+                    "image": "img/services/cctv/16channel/16channel.svg",
+                    "files": [
+                        {
+                            "name": "Analog 5MP Camera_OUTDOOR",
+                            "link": "files/cctv/16channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP Camera_INDOOR",
+                            "link": "files/cctv/16channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "Analog 5MP-XVR 16CH 2-Sata 20TB",
+                            "link": "files/cctv/16channel/5MP/DATASHEET_Analog-5MP_XVR_16ch_2-Sata20TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/16channel/5MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/16channel/5MP/CCTV Quotation-16ch_ANALOG_5MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 2MP",
+                    "image": "img/services/cctv/16channel/16channel.svg",
+                    "files": [
+                        {
+                            "name": "16 Port POE Switch",
+                            "link": "files/cctv/16channel/IP_2MP/DATASHEET_16-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_INDOOR",
+                            "link": "files/cctv/16channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP Camera_OUTDOOR",
+                            "link": "files/cctv/16channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 2MP NVR 16CH 1-Sata 10TB",
+                            "link": "files/cctv/16channel/IP_2MP/DATASHEET_IP-2MP_NVR_16ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/16channel/IP_2MP/CCTV Quotation-IP_16ch Package 2MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                },
+                {
+                    "type": "IP 4MP",
+                    "image": "img/services/cctv/16channel/16channel.svg",
+                    "files": [
+                        {
+                            "name": "16 Port POE Switch",
+                            "link": "files/cctv/16channel/IP_4MP/DATASHEET_16-PORT POE SWITCH.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_INDOOR",
+                            "link": "files/cctv/16channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 4MP Camera_OUTDOOR",
+                            "link": "files/cctv/16channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf"
+                        },
+                        {
+                            "name": "IP 4MP NVR 16CH 1-Sata 10TB",
+                            "link": "files/cctv/16channel/IP_4MP/DATASHEET_IP-4MP_NVR_16ch_1-Sata10TB.pdf"
+                        },
+                        {
+                            "name": "Surveillance Hard Disk",
+                            "link": "files/cctv/16channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf"
+                        },
+                        {
+                            "name": "Quotation",
+                            "link": "files/cctv/16channel/IP_4MP/CCTV Quotation-IP_16ch Package 4MP (Full Colored with Audio).pdf"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

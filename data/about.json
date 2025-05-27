@@ -1,0 +1,46 @@
+{
+    "company_profile": [
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          "RREA Enterprises delivers innovative, customized IT solutions with client satisfaction at the core. Guided by our tagline, “Client Trust Is Of Utmost Priority,” our expert team of IT specialists and licensed engineers listens closely to client needs to craft reliable, high-quality systems that meet the highest standards in service, safety, and performance."
+        ],
+        "stats": [
+          { "value": "20+", "label": "Years of Experience" },
+          { "value": "2000+", "label": "Projects Completed" }
+        ],
+        "image": "img/homepage/header-bg.jpg"
+      },
+      {
+        "title": "Our Mission",
+        "paragraphs": [
+          "RREA Enterprises firmly believe that our people are our biggest asset, and it’s our passion and commitment that sets RREA Enterprises apart from the rest. For that reason, we work hard to create an environment that’s enjoyable and collaborative, and so that everyone is inspired to continue to achieve the impossible."
+        ],
+        "image": "img/homepage/header-bg.jpg"
+      },
+      {
+        "title": "Our Vision",
+        "paragraphs": [
+          "RREA Enterprises will be recognized in the Philippines and in international countries as the professional service provider that accomplished the ultimate balance between outstanding client service and financial success of the firm."
+        ],
+        "image": "img/homepage/header-bg.jpg"
+      },
+      {
+        "title": "Our Goal",
+        "paragraphs": [
+          "At RREA ENTERPRISES, our goal is simple – to deliver innovative, reliable, and long-lasting technology solutions that empower our clients to thrive in a rapidly evolving digital world. We don’t just meet expectations – we aim to exceed them through customized strategies, seamless integration, and a strong focus on excellence in everything we do.",
+          "What sets us apart is our people – a dedicated team of young, creative, and focused professionals who take pride in the craftsmanship of their work. We believe the best talents aren't always found in the biggest agencies, but in those who care deeply about quality, innovation, and making a real impact. Our work is guided by four core values:"
+        ],
+        "list_title": "",
+        "list_items": [
+          "Professionalism in our conduct and delivery",
+          "Teamwork that strengthens collaboration and creativity",
+          "Respect for clients, partners and one another",
+          "Time Management that ensures efficiency and accountability"
+        ],
+        "conclusion": "These principles drive every project we take on and form the foundation of the long-term relationships we build. At RREA ENTERPRISES, your vision becomes our mission — and together, we create solutions that last.",
+        "image": "img/homepage/header-bg.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "navigation": [
+    {
+      "id": "1",
+      "title": "Home",
+      "link": "index.php",
+      "show": true
+    },
+    {
+      "id": "2",
+      "title": "About Us",
+      "link": "aboutus.php",
+      "show": true
+    },
+    {
+      "id": "3",
+      "title": "Our Clients",
+      "link": "portfolio/clients.php",
+      "show": false
+    },
+    {
+      "id": "6",
+      "title": "Our Projects",
+      "link": "portfolio/projects.php",
+      "show": false
+    },
+    {
+      "id": "4",
+      "title": "Contact Us",
+      "link": "contactus.php",
+      "show": true
+    },
+    {
+      "id": "5",
+      "title": "Services",
+      "link": "services.php",
+      "show": false
+    }
+  ]
+}

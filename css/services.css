@@ -1,0 +1,179 @@
+.services-btn.btn-primary.btn-xl {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0056d2;
+  border: none;
+}
+
+.services-btn.btn-primary.btn-xl:hover {
+  background-color: #003fa3;
+}
+
+.page-section h2.services-heading {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.page-section h3.services-subheading {
+  font-size: 18px;
+  /* font-weight: 300; */
+  margin-bottom: 75px;
+  /* text-transform: none; */
+  text-align: justify;
+  line-height: 2rem;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: remove jump */
+}
+
+/* Optional: keep it consistent with Bootstrap's dropdown behavior */
+.navbar .dropdown-menu {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Container Styling */
+#bccontainer {
+  padding: 0 50px 0 50px;
+}
+
+/* Breadcrumbs */
+.breadcrumb-wrapper {
+  /* background-color: #f8f9fa; */
+  padding: 10px;
+  border-radius: 0.25rem;
+  margin-left: -25px;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+/* Section Heading */
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* CCTV Cards */
+.cctv-card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: inherit;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: inherit;
+
+}
+
+.cctv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cctv-card img {
+  object-fit: contain;
+  padding: 10px;
+}
+
+.cctv-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #606060;
+  padding: 0 0 0 10px;
+  /* text-align: left; */
+}
+
+.cctv-card ul {
+  padding-left: 0;
+}
+
+.cctv-card li {
+  margin-bottom: 0.5rem;
+}
+
+.cctv-card li a {
+  /* color: #343a40;
+  text-decoration: none; */
+  text-decoration: underline;
+  color: #0A50B7;
+  display: flex;
+  align-items: center;
+}
+
+.cctv-card li a:hover {
+  text-decoration: underline;
+}
+
+.div-title {
+  font-weight: 600;
+  margin: 0 0 30px 0;
+  padding: 20px;
+  color: #333;
+  background: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.dev-message {
+      background: white;
+      padding: 50px;
+      text-align: center;
+      /* border-radius: 10px; */
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      /* max-width: 500px; */
+    }
+
+    .dev-message h1 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .dev-message p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+
+    .dev-message img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+
+/* .pdf-link {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  color: #0A50B7;
+} */
+
+/* Responsive Tweaks */
+@media (max-width: 575.98px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .breadcrumb-wrapper {
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+    div.page-section {
+        padding: 20px;
+    }
+}

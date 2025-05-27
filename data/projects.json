@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "title": "Sukli Grocery Store",
+      "images": [
+        "img/projects/sukli_grocery_store/image1.svg",
+        "img/projects/sukli_grocery_store/image2.svg",
+        "img/projects/sukli_grocery_store/image3.svg",
+        "img/projects/sukli_grocery_store/image4.svg",
+        "img/projects/sukli_grocery_store/image5.svg"
+      ]
+    },
+    {
+      "title": "Colombo Integrated School",
+      "images": [
+        "img/projects/sukli_grocery_store/image1.svg",
+        "img/projects/sukli_grocery_store/image2.svg",
+        "img/projects/sukli_grocery_store/image3.svg",
+        "img/projects/sukli_grocery_store/image4.svg",
+        "img/projects/sukli_grocery_store/image5.svg"
+      ]
+    },
+    {
+      "title": "LBC Laguna",
+      "images": [
+        "img/projects/sukli_grocery_store/image1.svg",
+        "img/projects/sukli_grocery_store/image2.svg",
+        "img/projects/sukli_grocery_store/image3.svg",
+        "img/projects/sukli_grocery_store/image4.svg",
+        "img/projects/sukli_grocery_store/image5.svg"
+      ]
+    },
+    {
+      "title": "MP Velasco Hardware and Construction Supply",
+      "images": [
+        "img/projects/sukli_grocery_store/image1.svg",
+        "img/projects/sukli_grocery_store/image2.svg",
+        "img/projects/sukli_grocery_store/image3.svg",
+        "img/projects/sukli_grocery_store/image4.svg",
+        "img/projects/sukli_grocery_store/image5.svg"
+      ]
+    }
+  ]
+}

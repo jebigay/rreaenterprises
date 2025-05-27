@@ -1,0 +1,511 @@
+{
+    "clients": [
+        {
+            "src": "img/clients/government/client1.svg",
+            "alt": "Alaminos (Laguna) Water District",
+            "category": "government",
+            "website": "",
+            "branches": [
+                {
+                    "name": "Alaminos (Laguna) Water District",
+                    "address": "Alaminos, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/government/client2.svg",
+            "alt": "Santa Cruz (Laguna) Water District",
+            "category": "government",
+            "website": "",
+            "branches": [
+                {
+                    "name": "Santa Cruz (Laguna) Water District",
+                    "address": "Sta. Cruz, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/government/client3.svg",
+            "alt": "Pagsanjan Water District",
+            "category": "government",
+            "website": "",
+            "branches": [
+                {
+                    "name": "Pagsanjan Water District",
+                    "address": "Pagsanjan, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/government/client4.svg",
+            "alt": "DepEd - Division of Tanauan City",
+            "category": "government",
+            "website": "",
+            "branches": [
+                {
+                    "name": "DepEd - Division of Tanauan City",
+                    "address": "Tanauwan City, Batangas"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/government/client5.svg",
+            "alt": "Lumban Laguna Police",
+            "category": "government",
+            "website": "",
+            "branches": [
+                {
+                    "name": "Lumban Laguna Police",
+                    "address": "Lumban, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client6.svg",
+            "alt": "Punta Integrated School",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Punta Integrated School",
+                    "address": "Punta Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client7.svg",
+            "alt": "Calamba Integrated School",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Calamba Integrated School",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client8.svg",
+            "alt": "Blue Isle Integrated School",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Blue Isle Integrated School",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client9.svg",
+            "alt": "Phil Nippon Technical College",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Phil Nippon Technical College",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client10.svg",
+            "alt": "Laguna College of Business and Arts",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Laguna College of Business and Arts",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client11.svg",
+            "alt": "Casa Del Nino Montessori School",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Casa Del Nino Montessori School",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client12.svg",
+            "alt": "Casa Del Nino Montessori & Science High School",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "Casa Del Nino Montessori School",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/schools/client13.svg",
+            "alt": "De La Salle University",
+            "category": "school",
+            "branches": [
+                {
+                    "name": "De La Salle University - Laguna Campus",
+                    "address": "Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client14.svg",
+            "alt": "No Ka Oi Philippines Int'l Inc.",
+            "website": "",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "No Ka Oi Philippines Int'l Inc.",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client15.svg",
+            "alt": "No Ka Oi International Trading and Consultancy Inc.",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "Na Ka Oi International Trading and Consultancy Inc.",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client16.svg",
+            "alt": "Pioneer Adhesives, Inc.",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "Pioneer Adhesives, Inc.",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client17.svg",
+            "alt": "Fujitrans",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "Fujitrans",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client18.svg",
+            "alt": "China Comservice",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "China Comservice",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client19.svg",
+            "alt": "Maxim De Humana International Inc.",
+            "website": "",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "Maxim De Humana International Inc.",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/international/client20.svg",
+            "alt": "LBC",
+            "website": "",
+            "category": "international",
+            "branches": [
+                {
+                    "name": "LBC Calauan",
+                    "address": "Calauan, Laguna"
+                },
+                {
+                    "name": "LBC Binan",
+                    "address": "Binan, Laguna"
+                },
+                {
+                    "name": "LBC Nagcarlan",
+                    "address": "Nagcarlan, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/residential/client21.svg",
+            "alt": "Suntrust Sentosa",
+            "category": "residential",
+            "branches": [
+                {
+                    "name": "Suntrust Sentosa",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/residential/client22.svg",
+            "alt": "Southpoint",
+            "category": "residential",
+            "branches": [
+                {
+                    "name": "Southpoint",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/hospitals/client23.svg",
+            "alt": "SPC Medical Center",
+            "website": "",
+            "category": "hospital",
+            "branches": [
+                {
+                    "name": "SPC Medical Center",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/hospitals/client24.svg",
+            "alt": "Calamba Medical Center",
+            "website": "",
+            "category": "hospital",
+            "branches": [
+                {
+                    "name": "Calamba Medical Center (CMC)",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/hospitals/client25.svg",
+            "alt": "Mount Grace Hospital",
+            "website": "",
+            "category": "hospital",
+            "branches": [
+                {
+                    "name": "Mount Grace Hospital",
+                    "address": "Los Banos, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/eventplaces/client26.svg",
+            "alt": "Calamba Tent The Event Place",
+            "website": "",
+            "category": "eventplace",
+            "branches": [
+                {
+                    "name": "Calamba Tent The Event Place",
+                    "address": "Calamba, Laguna"
+                }
+            ]
+        },
+        {
+            "src": "img/clients/eventplaces/client27.svg",
+            "alt": "H&B Nature Camp",
+            "category": "eventplace",
+            "branches": [
+                {
+                    "name": "H&B Nature Camp",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client28.svg",
+            "alt": "MNHL Engineering Services",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Casa Del Nino Montessori School",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client29.svg",
+            "alt": "SFM Sales Corp.",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "SFM Sales Corp. (Laguna)",
+                    "address": "Laguna" 
+                },
+                {
+                  "name": "SFM Sales Corp. (Batangas)",
+                  "address": "Batangas" 
+              },
+              {
+                "name": "SFM Sales Corp. (Quezon)",
+                "address": "Quezon" 
+            }
+            ]
+        },
+        {
+            "src": "img/clients/other/client30.svg",
+            "alt": "Maxion Bioscience",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Maxion Bioscience",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client31.svg",
+            "alt": "DITO Telecommunity",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "DITO Telecommunity",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client32.svg",
+            "alt": "NUTRIVA Agri-Ventures Corporation",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "NUTRIVA Agri-Ventures Corporation",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client33.svg",
+            "alt": "Motortrade",
+            "category": "other",
+            "branches": [
+              {
+                "name": "Motortrade (Calamba)",
+                "address": "Parian, Calamba Laguna" 
+            },
+            {
+              "name": "Motortrade (Cabuyao)",
+              "address": "Pulo, Cabuyao Laguna" 
+               }
+            ]
+        },
+        {
+            "src": "img/clients/other/client34.svg",
+            "alt": "MP Velasco Hardware",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "MP Velasco Hardware",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client35.svg",
+            "alt": "Sun Foreign Exchange",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Sun Foreign Exchange",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client36.svg",
+            "alt": "Tipidsulit Laundromat",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Tipidsulit Laundromat",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client37.svg",
+            "alt": "Cherifer M<anufacturing Plant",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Cherifer M<anufacturing Plant",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client38.svg",
+            "alt": "OJ's Brew",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "OJ's Brew",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client39.svg",
+            "alt": "Black Panther Security Trading Agency Inc.",
+            "website": "",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Black Panther Security Trading Agency Inc.",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client40.svg",
+            "alt": "KB Stability Construction Services",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "KB Stability Construction Services",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client41.svg",
+            "alt": "Center for Growth Leadership",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Center for Growth Leadership",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client42.svg",
+            "alt": "Primeluck Trading Corporation",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Primeluck Trading Corporation",
+                    "address": ""
+                }
+            ]
+        },
+        {
+            "src": "img/clients/other/client43.svg",
+            "alt": "Public Safety Savings and Loan Association, Inc.",
+            "website": "",
+            "category": "other",
+            "branches": [
+                {
+                    "name": "Public Safety Savings and Loan Association, Inc.",
+                    "address": ""
+                }
+            ]
+        }
+    ]
+}

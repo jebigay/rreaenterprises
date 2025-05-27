@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RREA Enterprises</title>
+    <base href="http://localhost/rrea-project/">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/homepage/rrea-logo.svg" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet">
+    <link href="css/client.css" rel="stylesheet">
+  </head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/clients.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
+    <script src="js/services-search.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/allservices.js"></script>
