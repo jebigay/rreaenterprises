@@ -64,7 +64,7 @@ try {
     $mail->SMTPAuth = true;
     $mail->Username = $_ENV['MAIL_USERNAME'];
     $mail->Password = $_ENV['MAIL_PASSWORD'];
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->SMTPSecure = $_ENV['MAIL_ENCRYPTION'];
     $mail->Port = $_ENV['MAIL_PORT'];
 
     $mail->setFrom($_ENV['MAIL_USERNAME'], 'Website Contact');
