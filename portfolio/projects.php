@@ -13,7 +13,7 @@
 
 <div class="page-section" id="clients">
   <div class="clients-container">
-    <h2 class="services-heading">Our Projects</h2>
+    <h2 class="services-heading">Featured Work</h2>
     <h3 class="services-subheading">For over a decade, we've partnered with prominent national and international brands, along with a wide array of smaller, niche businesses across various industries. Below is a list of our valued clients.</h3>
     <div id="projects-container"></div>
   </div>

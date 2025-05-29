@@ -9,10 +9,21 @@
   </div>
 </section>
 <div class="dev-message">
-    <img src="https://cdn-icons-png.flaticon.com/512/6075/6075686.png" alt="Under Development" />
-    <h1>This Page is Still in Development</h1>
-    <p>We're working hard to bring this page to life. Please check back soon.</p>
-  </div>
+  <!-- <div class="dev-image"> -->
+    <img src="img/services/inprogress.svg" alt="Page Under Development" />
+  <!-- </div> -->
+  <div class="dev-content">
+    <h1>This Page Is Coming Soon!</h1>
+    <p>We're currently building something great. Please check back soon to see the updates.</p>
+    <p>In the meantime, if you'd like to learn more about this service, we'd love to hear from you!</p>
+
+    <p><strong>📞 Call Us:</strong> +63991-342-0364</p>
+    <p><strong>📧 Email:</strong> <a href="mailto:rudyaguilar@rreaenterprises.com">rudyaguilar@rreaenterprises.com</a></p>
+    <p>Or send us your inquiry through our contact page.</p>
+</div>
+  <a href="contactus.php" class="contactus-button">📩 Send Inquiry</a>
+</div>
+
 <?php
     include '../components/footer.php'; 
 ?>

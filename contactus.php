@@ -58,7 +58,7 @@
     <div class="mt-5">
       <iframe
         class="google-map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.039291464304!2d121.16279331483806!3d14.18805929003648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6334b2b11cc1%3A0x8f16e1b2657b46fa!2sRUC%20Calamba!5e0!3m2!1sen!2sph!4v1626277413036!5m2!1sen!2sph"
+        src="https://www.google.com/maps?q=14.181171,121.126036&z=17&output=embed"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade">
