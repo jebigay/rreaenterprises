@@ -3,7 +3,7 @@
     include '../components/header.php';
 ?>
 <!-- Hero Section -->
-<section class="work-hero">
+<section section class="hero" style="background: url('img/projects/hero-banner.svg') center/cover no-repeat;">
   <div class="hero-overlay">
     <h2>OUR WORKS</h2>
     <p>Built by Passion, Powered by Innovation</p>

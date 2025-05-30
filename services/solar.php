@@ -2,7 +2,7 @@
     include '../components/navbar.php';
     include '../components/header.php';
 ?>
-<section class="about-hero">
+<section section class="hero" style="background: url('img/about/hero-banner.svg') center/cover no-repeat;">
   <div class="hero-overlay">
     <h2>Solar Power System</h2>
     <p>Built by Passion, Powered by Innovation</p>

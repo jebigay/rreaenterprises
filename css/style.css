@@ -365,53 +365,7 @@ video {
         font-size: 14px;
     } */
      
-    .about-hero {
-    background: url('../img/about/hero-banner.svg') center/cover no-repeat;
-    height: fit-content;
-    position: relative;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top:100px;
-  }
-  .contact-hero {
-    background: url('../img/contact/hero-banner.svg') center/cover no-repeat;
-    height: fit-content;
-    position: relative;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top:100px;
-  }
-  .service-hero {
-    background: url('../img/services/hero-banner.svg') center/cover no-repeat;
-    height: fit-content;
-    position: relative;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top:100px;
-  }
-  .cctv-hero {
-    background: url('../img/services/cctv-banner.svg') center/cover no-repeat;
-    height: fit-content;
-    position: relative;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top:100px;
-  }
-  .clients-hero {
-    background: url('../img/clients/hero-banner.svg') center/cover no-repeat;
-    height: fit-content;
-    position: relative;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top:100px;
-  }
-  .work-hero {
-    background: url('../img/projects/hero-banner.svg') center/cover no-repeat;
+    .hero {
     height: fit-content;
     position: relative;
     display: flex;
@@ -421,15 +375,13 @@ video {
   }
   
   .hero-overlay {
-    /* background: rgba(0, 0, 0, 0.5); */
     color: #fff;
-    padding: 40px;
+    padding: 0 0 0 60px;
     text-align: left;
   }
   
   .hero-overlay h2 {
     font-size: 50px;
-    margin-bottom: 10px;
   }
   
   .hero-overlay p {
