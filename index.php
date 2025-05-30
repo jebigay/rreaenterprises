@@ -94,7 +94,8 @@
           <input type="email" id="email" name="email" placeholder="Your email *" required />
           <input type="phone" id="phone" name="phone" placeholder="Your contact number *" required />
           <textarea id="message" name="message" placeholder="Your message *" required></textarea>
-          <input label="Upload Attachments" type="file" name="attachments[]" accept="image/*,application/*" multiple />
+          <input label="Upload Attachments (Please make sure all your documents are saved as PDF)" type="file" name="attachments[]" accept="image/*,application/pdf" multiple />
+          <label for="attachments" style="color: #6c757d;font-size:80%;"><b>Note: </b>Please make sure all your uploaded documents are saved as PDF. This only sends images and PDF files.</label>
           <button class="btn btn-primary btn-xl js-scroll-trigger" type="submit">Submit</button>
         </form>
         <div id="success"></div>

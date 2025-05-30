@@ -28,16 +28,8 @@ $phone = htmlspecialchars(strip_tags($_POST['phone']));
 $message = htmlspecialchars(strip_tags($_POST['message']));
 
 $allowedMimeTypes = [
-    'image/jpeg',
-    'image/png',
-    'image/gif',
-    'image/webp',
-    'image/bmp',
-    'application/pdf',
-    'application/msword',
-    'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-    'application/vnd.ms-excel',
-    'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    'image/*',
+    'application/pdf'
 ];
 
 if (!empty($_FILES['attachments']['name'][0])) {
@@ -81,78 +73,78 @@ try {
     $mail->Subject = "Inquiry from $name";
 
 // HTML Email Template
-$mail->Body = "
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8' />
-    <style>
-      body {
-        font-family: 'Poppins', Arial, sans-serif;
-        line-height: 30px;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 20px;
-      }
+    $mail->Body = "
+            <!DOCTYPE html>
+            <html lang='en'>
+            <head>
+                <meta charset='UTF-8' />
+                <style>
+                body {
+                    font-family: 'Poppins', Arial, sans-serif;
+                    line-height: 30px;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
 
-      .email-container {
-        max-width: 600px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        border: 1px solid #e0e0e0;
-        border-radius: 5px;
-        padding: 20px;
-      }
+                .email-container {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    background-color: #ffffff;
+                    border: 1px solid #e0e0e0;
+                    border-radius: 5px;
+                    padding: 20px;
+                }
 
-      .header {
-        background-color: #F213FC;
-        color: #ffffff;
-        padding: 15px;
-        text-align: center;
-        border-radius: 6px 6px 0 0;
-        font-size: 1.2rem;
-      }
+                .header {
+                    background: linear-gradient(to bottom left, #3957EB,  #F213FC);
+                    color: #ffffff;
+                    padding: 15px;
+                    text-align: center;
+                    border-radius: 6px 6px 0 0;
+                    font-size: 1.2rem;
+                }
+                
+                .content {
+                    padding: 20px;
+                }
 
-      .content {
-        padding: 20px;
-      }
+                .content p {
+                    margin: 10px 0;
+                    font-size: 1rem;
+                    color: #333;
+                }
 
-      .content p {
-        margin: 10px 0;
-        font-size: 1rem;
-        color: #333;
-      }
+                .label {
+                    font-weight: bold;
+                }
 
-      .label {
-        font-weight: bold;
-      }
-
-      .footer {
-        text-align: center;
-        font-size: 0.85rem;
-        color: #999;
-        margin-top: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class='email-container'>
-      <div class='header'>
-        New Contact Inquiry
-      </div>
-      <div class='content'>
-        <p><span class='label'>Name:</span> {$name}</p>
-        <p><span class='label'>Email:</span> {$email}</p>
-        <p><span class='label'>Contact Number:</span> {$phone}</p>
-        <p><span class='label'>Inquiry Message:</span> {$message}</p>
-      </div>
-      <div class='footer'>
-        This message was generated from your website contact form.
-      </div>
-    </div>
-  </body>
-</html>
-";
+                .footer {
+                    text-align: center;
+                    font-size: 0.85rem;
+                    color: #999;
+                    margin-top: 20px;
+                }
+                </style>
+            </head>
+            <body>
+                <div class='email-container'>
+                <div class='header'>
+                    New Contact Inquiry
+                </div>
+                <div class='content'>
+                    <p><span class='label'>Name:</span> {$name}</p>
+                    <p><span class='label'>Email:</span> {$email}</p>
+                    <p><span class='label'>Contact Number:</span> {$phone}</p>
+                    <p><span class='label'>Inquiry Message:</span> {$message}</p>
+                </div>
+                <div class='footer'>
+                    This message was generated from your website contact form.
+                </div>
+                </div>
+            </body>
+            </html>
+            ";
 
     if (!empty($_FILES['attachments']['name'][0])) {
         foreach ($_FILES['attachments']['tmp_name'] as $key => $tmp_name) {

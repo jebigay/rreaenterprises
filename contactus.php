@@ -39,16 +39,17 @@
 
   <!-- File upload field -->
   <div class="mb-4">
-    <label for="attachments" class="form-label">Upload Attachments</label>
+    <label for="attachments" class="form-label">Upload Attachments</label><br>
     <input
       type="file"
       class="form-control"
       id="attachments"
       name="attachments[]"
-      accept="image/*,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      accept="image/*,application/pdf"
       multiple
       style="height: inherit;"
     />
+    <label for="attachments" style="color: #6c757d;font-size:80%;"><b>Note: </b>Please make sure all your uploaded documents are saved as PDF. This only sends images and PDF files.</label>
   </div>
 
   <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Submit</button>
