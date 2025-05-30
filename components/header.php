@@ -4,8 +4,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Built by Passion, Powered by Innovation - With a comprehensive range of services, RREA Enterprises can guarantee your technology needs are not just met, but exceeded. We work closely with our clients to create customized plans that are seamlessly integrated, effective and sustainable for many years to come. Reach out today to see how we can help. The best talents in these industry are not at the biggest agencies or companies. We are a team of young, creative, focused and devoted Professionals that believe in creating the highest level of craftsmanship. RREA Enterprises delivers innovative, customized IT solutions with client satisfaction at the core. Guided by our tagline, “Client Trust Is Of Utmost Priority,” our expert team of IT specialists and licensed engineers listens closely to client needs to craft reliable, high-quality systems that meet the highest standards in service, safety, and performance.">
+    <meta name="author" content="RREA Enterprises">
+    <meta name="keywords" content="RREA Enterprises Calamba Laguna, IT Services, Information Communication Technology, QuickBooks, CCTV Installation, Solar Panel Solutions, Solar Power System, Website Development, Computer Repair, Windows Server Configuration, Technology Solutions, IT Support, Web Design, Cloud Services, Networking Solutions, CCTV Surveillance, ICT Services, Solar Energy Solutions, Computer Maintenance">
 
     <title>RREA Enterprises</title>
     <base href="<?= $_ENV['DOMAIN'] ?>">
