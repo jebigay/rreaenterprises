@@ -4,14 +4,14 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
-$domain = $_ENV['DOMAIN'];
+
 ?>
   <body id="page-top">
     <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d6fe0320-bebc-4b2a-ae2c-d3311435ae96"> </script>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger fourstack-title" href="#page-top">
-          <img class="logo-header" src="<?= $domain ?>/img/homepage/rrea-logo.svg" />
+          <img class="logo-header" src="<?= $_ENV['DOMAIN'] ?>img/homepage/rrea-logo.svg" />
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

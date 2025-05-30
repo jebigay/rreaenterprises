@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <title>RREA Enterprises</title>
-    <base href="http://localhost/rreaenterprises/">
+    <base href="<?= $_ENV['DOMAIN'] ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="img/homepage/rrea-logo.svg" sizes="16x16">
