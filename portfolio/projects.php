@@ -3,7 +3,7 @@
     include '../components/header.php';
 ?>
 <!-- Hero Section -->
-<section class="hero">
+<section class="work-hero">
   <div class="hero-overlay">
     <h2>OUR WORKS</h2>
     <p>Built by Passion, Powered by Innovation</p>

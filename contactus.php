@@ -2,7 +2,7 @@
     include 'components/navbar.php';
     include 'components/header.php';
 ?>
-<section class="hero">
+<section class="contact-hero">
   <div class="hero-overlay">
     <h2>CONTACT US</h2>
     <p>Built by Passion, Powered by Innovation</p>

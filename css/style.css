@@ -133,9 +133,9 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 16px;
+  font-size: 22px;
   right: 0;
-  padding: 13px;
+  /* padding: 13px; */
   text-transform: uppercase;
   color: black;
   border: 0;
@@ -365,8 +365,53 @@ video {
         font-size: 14px;
     } */
      
-    .hero {
-    background: url('../img/homepage/hero-banner.svg') center/cover no-repeat;
+    .about-hero {
+    background: url('../img/about/hero-banner.svg') center/cover no-repeat;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:100px;
+  }
+  .contact-hero {
+    background: url('../img/contact/hero-banner.svg') center/cover no-repeat;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:100px;
+  }
+  .service-hero {
+    background: url('../img/services/hero-banner.svg') center/cover no-repeat;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:100px;
+  }
+  .cctv-hero {
+    background: url('../img/services/cctv-banner.svg') center/cover no-repeat;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:100px;
+  }
+  .clients-hero {
+    background: url('../img/clients/hero-banner.svg') center/cover no-repeat;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:100px;
+  }
+  .work-hero {
+    background: url('../img/projects/hero-banner.svg') center/cover no-repeat;
     height: fit-content;
     position: relative;
     display: flex;
@@ -428,12 +473,11 @@ video {
 
     }
   }
-  @media (min-width: 768px) and (max-width: 1200px) {
+  @media (min-width: 768px) {
   
       /* Adjust container width for smaller screens */
     .container {
         max-width: 90%;
-  
       }
     }
 
@@ -836,7 +880,7 @@ input.is-invalid, textarea.is-invalid {
   border-color: red;
 }
 
-.hero {
+/* .hero {
     background: url('../img/homepage/hero-banner.svg') center/cover no-repeat;
     height: fit-content;
     position: relative;
@@ -848,7 +892,7 @@ input.is-invalid, textarea.is-invalid {
   }
   
   .hero-overlay {
-    /* background: rgba(0, 0, 0, 0.5); */
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 40px;
     text-align: left;
@@ -860,11 +904,11 @@ input.is-invalid, textarea.is-invalid {
   }
   
   .hero-overlay p {
-    /* max-width: 800px; */
-    /* margin: 0 auto; */
+    max-width: 800px; */
+    /* margin: 0 auto;
     font-size: 16px;
     text-align: left;
-  }
+  } */
 
 
 /* blue 2483af*/

@@ -2,7 +2,7 @@
     include '../components/navbar.php';
     include '../components/header.php';
 ?>
-<section class="hero">
+<section class="cctv-hero">
   <div class="hero-overlay">
     <h2>CCTV Surveillance</h2>
     <p>Built by Passion, Powered by Innovation</p>

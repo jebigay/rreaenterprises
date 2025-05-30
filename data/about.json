@@ -9,7 +9,7 @@
           { "value": "20+", "label": "Years of Experience" },
           { "value": "2000+", "label": "Projects Completed" }
         ],
-        "image": "img/homepage/header-bg.jpg"
+        "image": "img/about/about-bg.svg"
       },
       {
         "title": "Our Mission",
