@@ -18,7 +18,7 @@
             "alt": "Santa Cruz (Laguna) Water District",
             "categories": ["government"],
             "website": "",
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Santa Cruz (Laguna) Water District",
@@ -31,7 +31,7 @@
             "alt": "Pagsanjan Water District",
             "categories": ["government"],
             "website": "",
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Pagsanjan Water District",
@@ -69,7 +69,7 @@
             "src": "img/clients/schools/client6.svg",
             "alt": "Punta Integrated School",
             "categories": ["school"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Punta Integrated School",
@@ -81,7 +81,7 @@
             "src": "img/clients/schools/client7.svg",
             "alt": "Calamba Integrated School",
             "categories": ["school"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Calamba Integrated School",
@@ -234,7 +234,7 @@
             "alt": "Maxim De Humana International Inc.",
             "website": "",
             "categories": ["international"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Maxim De Humana International Inc.",
@@ -249,17 +249,6 @@
             "categories": ["international", "logistics"],
             "featured": true,
             "branches": [
-                {
-                    "name": "LBC Laguna",
-                    "address": "Laguna",
-                    "gallery": [
-                        "img/projects/LBC_Laguna/image1.svg",
-                        "img/projects/LBC_Laguna/image2.svg",
-                        "img/projects/LBC_Laguna/image3.svg",
-                        "img/projects/LBC_Laguna/image4.svg",
-                        "img/projects/LBC_Laguna/image5.svg"
-                    ]
-                },
                 {
                     "name": "LBC Calauan",
                     "address": "Calauan, Laguna",
@@ -285,7 +274,7 @@
             "src": "img/clients/residential/client21.svg",
             "alt": "Suntrust Sentosa",
             "categories": ["residential"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Suntrust Sentosa",
@@ -297,7 +286,7 @@
             "src": "img/clients/residential/client22.svg",
             "alt": "Southpoint",
             "categories": ["residential"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Southpoint",
@@ -310,7 +299,7 @@
             "alt": "SPC Medical Center",
             "website": "",
             "categories": ["hospital"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "SPC Medical Center",
@@ -323,7 +312,7 @@
             "alt": "Calamba Medical Center",
             "website": "",
             "categories": ["hospital"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Calamba Medical Center (CMC)",
@@ -349,7 +338,7 @@
             "alt": "Calamba Tent The Event Place",
             "website": "",
             "categories": ["eventplace"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "Calamba Tent The Event Place",
@@ -417,7 +406,7 @@
             "src": "img/clients/other/client31.svg",
             "alt": "DITO Telecommunity",
             "categories": ["other"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "DITO Telecommunity",
@@ -429,7 +418,7 @@
             "src": "img/clients/other/client32.svg",
             "alt": "NUTRIVA Agri-Ventures Corporation",
             "categories": ["other"],
-            "featured": false,
+            "featured": true,
             "branches": [
                 {
                     "name": "NUTRIVA Agri-Ventures Corporation",
@@ -467,7 +456,8 @@
                         "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image2.svg",
                         "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image3.svg",
                         "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image4.svg",
-                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image5.svg"
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image5.svg",
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image4.svg"
                     ]
                 }
             ]

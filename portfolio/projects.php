@@ -19,6 +19,17 @@
     <div id="projects-container"></div>
 
   </div>
+  <!-- Modal HTML -->
+<div id="imageModal" class="image-modal hidden">
+  <span class="modal-close">&times;</span>
+  <img id="modalImage" src="" alt="">
+  <div class="modal-controls">
+    <span id="prevImage">&#10094;</span>
+    <span id="nextImage">&#10095;</span>
+  </div>
+  <div id="modalCounter"></div>
+</div>
+
 </div>
 
 

@@ -660,8 +660,8 @@ h3.contact-subheading {
 
 .client-logos-track {
   display: flex;
-  width: calc(250px * 100); /* Adjust based on number of logos */
-  animation: scrollClients 70s linear infinite;
+  width: calc(250px * 15); /* Adjust based on number of logos */
+  animation: scrollClients 25s linear infinite;
 }
 
 .client-logos-track img {

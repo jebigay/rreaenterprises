@@ -5,7 +5,7 @@
             "solar_types": [
                 {
                     "name": "3KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/gridtie/6pcs.svg",
                     "price": "₱ 123,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "5KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/gridtie/10pcs.svg",
                     "price": "₱ 180,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -75,7 +75,7 @@
                 },
                 {
                     "name": "8KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/gridtie/16pcs.svg",
                     "price": "₱ 262,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -110,7 +110,7 @@
                 },
                 {
                     "name": "10KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/gridtie/20pcs.svg",
                     "price": "₱ 333,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -145,7 +145,7 @@
                 },
                 {
                     "name": "50KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/gridtie/90pcs.svg",
                     "price": "₱ 1,417,000.00",
                     "discounted_price": "",
                     "recommendation": "Best for Solar Farms",

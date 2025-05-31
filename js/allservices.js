@@ -237,13 +237,7 @@ function renderCctvPackages(channelGroups) {
       const list = document.createElement("ul");
       list.className = "list-unstyled mt-3 mb-4";
 
-      if (!pkg.files || pkg.files.length === 0) {
-        const li = document.createElement("li");
-        li.className = "text-muted";
-        li.textContent = "Updating soon...";
-        list.appendChild(li);
-      } else {
-        pkg.files.forEach((file) => {
+      pkg.files.forEach((file) => {
           const li = document.createElement("li");
 
           const a = document.createElement("a");
@@ -263,7 +257,6 @@ function renderCctvPackages(channelGroups) {
           li.appendChild(a);
           list.appendChild(li);
         });
-      }
 
       body.appendChild(title);
       body.appendChild(price);

@@ -15,11 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
+      // Filter only featured clients
+      const featuredClients = clientData.filter(client => client.featured === true);
+
+      // Optional: Repeat the logos if needed (e.g., for scrolling marquee)
       for (let i = 0; i < 2; i++) {
-        clientData.forEach(client => {
+        featuredClients.forEach(client => {
           const img = document.createElement('img');
           img.src = client.src;
-          img.alt = client.alt;
+          img.alt = client.alt || "Client Logo";
           logosContainer.appendChild(img);
         });
       }
@@ -164,7 +168,46 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById('projects-container');
   const filterContainer = document.getElementById('categoryFilters');
+  const modal = document.getElementById('imageModal');
+  const modalImg = document.getElementById('modalImage');
+  const modalCounter = document.getElementById('modalCounter');
+  const modalClose = document.querySelector('.modal-close');
+  const prevBtn = document.getElementById('prevImage');
+  const nextBtn = document.getElementById('nextImage');
+
   let clientsData = [];
+  let currentGallery = [];
+  let currentIndex = 0;
+
+  // Modal controls
+  function openModal(images, index = 0) {
+    currentGallery = images;
+    currentIndex = index;
+    showImage(index);
+    modal.classList.remove('hidden');
+  }
+
+  function closeModal() {
+    modal.classList.add('hidden');
+  }
+
+  function showImage(index) {
+    if (!currentGallery[index]) return;
+    modalImg.src = currentGallery[index];
+    modalCounter.textContent = `${index + 1}/${currentGallery.length}`;
+  }
+
+  prevBtn.onclick = () => {
+    currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
+    showImage(currentIndex);
+  };
+
+  nextBtn.onclick = () => {
+    currentIndex = (currentIndex + 1) % currentGallery.length;
+    showImage(currentIndex);
+  };
+
+  modalClose.onclick = closeModal;
 
   // Fetch data once
   fetch('data/clients.json')
@@ -172,7 +215,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       clientsData = data.clients;
 
-      // Collect all unique categories (normalize to lowercase to avoid duplicates like "Hospitals" vs "hospitals")
       const uniqueCategories = new Set();
       clientsData.forEach(client => {
         if (Array.isArray(client.categories)) {
@@ -182,7 +224,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      // Sort categories alphabetically for nicer UI
       const sortedCategories = Array.from(uniqueCategories).sort();
 
       createFilterButtons(sortedCategories);
@@ -191,7 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => console.error("Error loading JSON:", error));
 
   function createFilterButtons(categories) {
-    filterContainer.innerHTML = ''; // Clear existing buttons
+    filterContainer.innerHTML = '';
 
     const allBtn = document.createElement("button");
     allBtn.textContent = "All";
@@ -201,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     categories.forEach(cat => {
       const btn = document.createElement("button");
-      btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1); // Capitalize first letter
+      btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
       btn.dataset.category = cat;
       filterContainer.appendChild(btn);
     });
@@ -242,14 +283,33 @@ document.addEventListener("DOMContentLoaded", () => {
         gallery.className = 'project-gallery';
 
         const maxVisible = 5;
+        branch.gallery.slice(0, maxVisible).forEach((img, index) => {
+        const imgWrapper = document.createElement('div');
+        imgWrapper.classList.add('gallery-img-wrapper');
 
-        branch.gallery.forEach((img, index) => {
-          const imgElem = document.createElement('img');
-          imgElem.src = img;
-          imgElem.alt = branch.name || client.alt;
-          if (index >= maxVisible) imgElem.classList.add('hidden-img');
-          gallery.appendChild(imgElem);
-        });
+        const imageTag = document.createElement('img');
+        imageTag.src = img;
+        imageTag.alt = branch.name || client.alt;
+        imageTag.loading = 'lazy';
+
+        // For 5th image (index 4), apply overlay if more images exist
+        if (index === maxVisible - 1 && branch.gallery.length > maxVisible) {
+          const overlay = document.createElement('div');
+          overlay.className = 'more-overlay';
+          overlay.textContent = `+${branch.gallery.length - maxVisible}`;
+
+          imgWrapper.classList.add('view-all-img');
+          imgWrapper.addEventListener('click', () => openModal(branch.gallery, 0));
+
+          imgWrapper.appendChild(imageTag);
+          imgWrapper.appendChild(overlay);
+        } else {
+          imageTag.addEventListener('click', () => openModal(branch.gallery, index));
+          imgWrapper.appendChild(imageTag);
+        }
+
+        gallery.appendChild(imgWrapper);
+      });
 
         section.appendChild(title);
         section.appendChild(gallery);

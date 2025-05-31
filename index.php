@@ -57,7 +57,7 @@
     </div>
   </div>
   <div class="client-button text-center">
-    <a href="clients.php" class="btn btn-primary btn-xl js-scroll-trigger">View All Clients</a>
+    <a href="portfolio/clients.php" class="btn btn-primary btn-xl js-scroll-trigger">View All Clients</a>
   </div>
 </section>
 
