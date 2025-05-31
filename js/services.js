@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // col.className = "col-md-4 mb-4";
           col.innerHTML = `
             <a href="${service.link}" class="text-decoration-none text-dark d-flex flex-column h-100" style="background-color: white; border-radius: 10px;">
-              <img oncontextmenu="return false;" draggable="false" src="${service.image}" alt="${service.name} Image" class="mb-3 service-image" />
+              <img oncontextmenu="return false;" draggable="false" src="${service.image}" alt="${service.title} Image" class="mb-3 service-image" />
               <h4 class="service-heading">${service.name}</h4>
               <p class="service-subheading">${service.description}</p>
             </a>
@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
           // col.className = "col-md-4 mb-4";
           col.innerHTML = `
             <a href="${service.link}" class="text-decoration-none text-dark d-flex flex-column h-100" style="background-color: white; border-radius: 10px;">
-            <img oncontextmenu="return false;" draggable="false" src="${service.image}" alt="${service.name} Image" class="mb-3 service-image" />
-            <h4 class="service-heading">${service.name}</h4>
+            <img oncontextmenu="return false;" draggable="false" src="${service.image}" alt="${service.title} Image" class="mb-3 service-image" />
+            <h4 class="service-heading">${service.title}</h4>
             <p class="service-subheading">${service.description}</p>
 
             <div class="d-flex justify-content-center mt-auto">

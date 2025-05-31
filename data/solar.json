@@ -1,0 +1,394 @@
+{
+    "solar_packages": [
+        {
+            "package_name": "Grid Tie",
+            "solar_types": [
+                {
+                    "name": "3KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 123,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "6PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "3KW Grid Tie DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "5KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 180,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "10PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "5KW Grid Tie DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "8KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 262,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "16PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "8KW Grid Tie DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "10KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 333,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "20PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "10KW Grid Tie DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "50KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 1,417,000.00",
+                    "discounted_price": "",
+                    "recommendation": "Best for Solar Farms",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "90PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "50KW Grid Tie DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                }
+            ]
+        },
+        {
+            "package_name": "Off-Grid",
+            "solar_types": [
+                {
+                    "name": "3KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 254,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "6PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "3KW Off-Grid Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "LifePO4 Battery 48v 100ah",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "5KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 276,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "10PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "3KW Off-Grid Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "LifePO4 Battery 48v 100ah",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                }
+            ]
+        },
+        {
+            "package_name": "Hybrid",
+            "solar_types": [
+                {
+                    "name": "8KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 526,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "16PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "8KW Hybrid DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "LifePO4 Battery 51.2v 200ah",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "10KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 773,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "20PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "10KW Hybrid DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "LifePO4 Battery 51.2v 200ah",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                },
+                {
+                    "name": "16KW",
+                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "price": "₱ 910,000.00",
+                    "discounted_price": "",
+                    "recommendation": "",
+                    "features": [
+                        {
+                            "name": "550w Sunova Solar Panel",
+                            "description": "29PCS",
+                            "file": ""
+                        },
+                        {
+                            "name": "16KW Hybrid DEYE Inverter",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "LifePO4 Battery 51.2v 200ah",
+                            "description": "1PC",
+                            "file": ""
+                        },
+                        {
+                            "name": "Breaker Set and Wiring",
+                            "description": "1 LOT",
+                            "file": ""
+                        },
+                        {
+                            "name": "Connectors and Brackets",
+                            "description": "1 LOT",
+                            "file": ""
+                        }
+                    ],
+                    "inclusions": [
+                        "Installation Services",
+                        "Commercial Installation",
+                        "After Sales Service",
+                        "Backup Power"
+                    ]
+                }
+            ]
+        }
+    ]
+}

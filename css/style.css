@@ -89,6 +89,12 @@ img::-moz-selection {
   font-family: "Poppins", sans-serif;
 }
 
+.btn-xl-getstarted {
+  font-size: 18px;
+  padding: 0 20px 0 20px;
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-primary {
   background-color: #3957eb;
   border: none;

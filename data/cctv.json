@@ -5,6 +5,8 @@
             "packages": [
                 {
                     "type": "Analog 2MP",
+                    "price": "₱ 22,104.00",
+                    "discounted_price": "₱ 21,888.00",
                     "image": "img/services/cctv/4channel/4channel.svg",
                     "files": [
                         {
@@ -31,6 +33,8 @@
                 },
                 {
                     "type": "Analog 5MP",
+                    "price": "₱ 27,104.00",
+                    "discounted_price": "₱ 26,888.00",
                     "image": "img/services/cctv/4channel/4channel.svg",
                     "files": [
                         {
@@ -57,6 +61,8 @@
                 },
                 {
                     "type": "IP 2MP",
+                    "price": "₱ 35,104.00",
+                    "discounted_price": "₱ 34,888.00",
                     "image": "img/services/cctv/4channel/4channel.svg",
                     "files": [
                         {
@@ -87,6 +93,8 @@
                 },
                 {
                     "type": "IP 4MP",
+                    "price": "₱ 39,104.00",
+                    "discounted_price": "₱ 38,888.00",
                     "image": "img/services/cctv/4channel/4channel.svg",
                     "files": [
                         {
@@ -122,6 +130,8 @@
             "packages": [
                 {
                     "type": "Analog 2MP",
+                    "price": "₱ 40,104.00",
+                    "discounted_price": "₱ 39,888.00",
                     "image": "img/services/cctv/8channel/8channel.svg",
                     "files": [
                         {
@@ -148,6 +158,8 @@
                 },
                 {
                     "type": "Analog 5MP",
+                    "price": "₱ 49,104.00",
+                    "discounted_price": "₱ 48,888.00",
                     "image": "img/services/cctv/8channel/8channel.svg",
                     "files": [
                         {
@@ -174,6 +186,8 @@
                 },
                 {
                     "type": "IP 2MP",
+                    "price": "₱ 62,104.00",
+                    "discounted_price": "₱ 61,888.00",
                     "image": "img/services/cctv/8channel/8channel.svg",
                     "files": [
                         {
@@ -204,6 +218,8 @@
                 },
                 {
                     "type": "IP 4MP",
+                    "price": "₱ 70,104.00",
+                    "discounted_price": "₱ 69,888.00",
                     "image": "img/services/cctv/8channel/8channel.svg",
                     "files": [
                         {
@@ -239,6 +255,8 @@
             "packages": [
                 {
                     "type": "Analog 2MP",
+                    "price": "₱ 79,104.00",
+                    "discounted_price": "₱ 78,888.00",
                     "image": "img/services/cctv/16channel/16channel.svg",
                     "files": [
                         {
@@ -265,6 +283,8 @@
                 },
                 {
                     "type": "Analog 5MP",
+                    "price": "₱ 97,104.00",
+                    "discounted_price": "₱ 96,888.00",
                     "image": "img/services/cctv/16channel/16channel.svg",
                     "files": [
                         {
@@ -291,6 +311,8 @@
                 },
                 {
                     "type": "IP 2MP",
+                    "price": "₱ 114,104.00",
+                    "discounted_price": "₱ 113,888.00",
                     "image": "img/services/cctv/16channel/16channel.svg",
                     "files": [
                         {
@@ -317,6 +339,8 @@
                 },
                 {
                     "type": "IP 4MP",
+                    "price": "₱ 131,104.00",
+                    "discounted_price": "₱ 130,888.00",
                     "image": "img/services/cctv/16channel/16channel.svg",
                     "files": [
                         {
@@ -345,6 +369,27 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "channel": "32-channel",
+            "packages": [
+                
+                
+            ]
+        },
+        {
+            "channel": "64-channel",
+            "packages": [
+                
+                
+            ]
+        },
+        {
+            "channel": "128-channel",
+            "packages": [
+                
+                
             ]
         }
     ]

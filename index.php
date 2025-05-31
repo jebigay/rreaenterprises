@@ -16,7 +16,7 @@
           The best talents in these industry are not at the biggest agencies or companies.
           We are a team of young, creative, focused and devoted Professionals that believe in creating the highest level of craftsmanship.
         </div>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact-section">Get Started <i class="fas fa-arrow-right"></i></a>
+        <a class="btn btn-primary btn-xl-getstarted js-scroll-trigger" href="#contact-section">Get Started <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="intro-image">
         <video width="100%" controls autoplay muted loop playsinline controlslist="nodownload" preload="none" oncontextmenu="return false">
@@ -49,12 +49,15 @@
   <div class="container">
     <div class="row justify-content-center mb-4">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our Clients</h2>
+        <h2 class="section-heading">Featured Clients</h2>
       </div>
     </div>
     <div class="client-logos-container">
       <div class="client-logos-track" id="clientLogos"></div>
     </div>
+  </div>
+  <div class="client-button text-center">
+    <a href="clients.php" class="btn btn-primary btn-xl js-scroll-trigger">View All Clients</a>
   </div>
 </section>
 

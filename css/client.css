@@ -76,6 +76,17 @@
   border-radius: 5px;
 }
 
+.client-button {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 100px 0 0 0;
+}
+
+
+
 @media (max-width: 768px) {
   .clients-grid {
     grid-template-columns: repeat(2, 1fr);

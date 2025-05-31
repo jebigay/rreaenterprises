@@ -3,8 +3,9 @@
         {
             "src": "img/clients/government/client1.svg",
             "alt": "Alaminos (Laguna) Water District",
-            "category": "government",
+            "categories": ["government"],
             "website": "",
+            "featured": true,
             "branches": [
                 {
                     "name": "Alaminos (Laguna) Water District",
@@ -15,8 +16,9 @@
         {
             "src": "img/clients/government/client2.svg",
             "alt": "Santa Cruz (Laguna) Water District",
-            "category": "government",
+            "categories": ["government"],
             "website": "",
+            "featured": false,
             "branches": [
                 {
                     "name": "Santa Cruz (Laguna) Water District",
@@ -27,8 +29,9 @@
         {
             "src": "img/clients/government/client3.svg",
             "alt": "Pagsanjan Water District",
-            "category": "government",
+            "categories": ["government"],
             "website": "",
+            "featured": false,
             "branches": [
                 {
                     "name": "Pagsanjan Water District",
@@ -39,8 +42,9 @@
         {
             "src": "img/clients/government/client4.svg",
             "alt": "DepEd - Division of Tanauan City",
-            "category": "government",
+            "categories": ["government"],
             "website": "",
+            "featured": false,
             "branches": [
                 {
                     "name": "DepEd - Division of Tanauan City",
@@ -51,8 +55,9 @@
         {
             "src": "img/clients/government/client5.svg",
             "alt": "Lumban Laguna Police",
-            "category": "government",
+            "categories": ["government"],
             "website": "",
+            "featured": false,
             "branches": [
                 {
                     "name": "Lumban Laguna Police",
@@ -63,7 +68,8 @@
         {
             "src": "img/clients/schools/client6.svg",
             "alt": "Punta Integrated School",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Punta Integrated School",
@@ -74,18 +80,27 @@
         {
             "src": "img/clients/schools/client7.svg",
             "alt": "Calamba Integrated School",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Calamba Integrated School",
-                    "address": "Calamba, Laguna"
+                    "address": "Calamba, Laguna",
+                    "gallery": [
+                        "img/projects/Calamba_Integrated_School/image1.svg",
+                        "img/projects/Calamba_Integrated_School/image2.svg",
+                        "img/projects/Calamba_Integrated_School/image3.svg",
+                        "img/projects/Calamba_Integrated_School/image4.svg",
+                        "img/projects/Calamba_Integrated_School/image5.svg"
+                    ]
                 }
             ]
         },
         {
             "src": "img/clients/schools/client8.svg",
             "alt": "Blue Isle Integrated School",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Blue Isle Integrated School",
@@ -96,7 +111,8 @@
         {
             "src": "img/clients/schools/client9.svg",
             "alt": "Phil Nippon Technical College",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Phil Nippon Technical College",
@@ -107,7 +123,8 @@
         {
             "src": "img/clients/schools/client10.svg",
             "alt": "Laguna College of Business and Arts",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Laguna College of Business and Arts",
@@ -118,7 +135,8 @@
         {
             "src": "img/clients/schools/client11.svg",
             "alt": "Casa Del Nino Montessori School",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -129,7 +147,8 @@
         {
             "src": "img/clients/schools/client12.svg",
             "alt": "Casa Del Nino Montessori & Science High School",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -140,7 +159,8 @@
         {
             "src": "img/clients/schools/client13.svg",
             "alt": "De La Salle University",
-            "category": "school",
+            "categories": ["school"],
+            "featured": false,
             "branches": [
                 {
                     "name": "De La Salle University - Laguna Campus",
@@ -152,7 +172,8 @@
             "src": "img/clients/international/client14.svg",
             "alt": "No Ka Oi Philippines Int'l Inc.",
             "website": "",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "No Ka Oi Philippines Int'l Inc.",
@@ -163,7 +184,8 @@
         {
             "src": "img/clients/international/client15.svg",
             "alt": "No Ka Oi International Trading and Consultancy Inc.",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Na Ka Oi International Trading and Consultancy Inc.",
@@ -174,7 +196,8 @@
         {
             "src": "img/clients/international/client16.svg",
             "alt": "Pioneer Adhesives, Inc.",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Pioneer Adhesives, Inc.",
@@ -185,7 +208,8 @@
         {
             "src": "img/clients/international/client17.svg",
             "alt": "Fujitrans",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Fujitrans",
@@ -196,7 +220,8 @@
         {
             "src": "img/clients/international/client18.svg",
             "alt": "China Comservice",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "China Comservice",
@@ -208,7 +233,8 @@
             "src": "img/clients/international/client19.svg",
             "alt": "Maxim De Humana International Inc.",
             "website": "",
-            "category": "international",
+            "categories": ["international"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Maxim De Humana International Inc.",
@@ -218,13 +244,32 @@
         },
         {
             "src": "img/clients/international/client20.svg",
-            "alt": "LBC",
+            "alt": "LBC Laguna",
             "website": "",
-            "category": "international",
+            "categories": ["international", "logistics"],
+            "featured": true,
             "branches": [
                 {
+                    "name": "LBC Laguna",
+                    "address": "Laguna",
+                    "gallery": [
+                        "img/projects/LBC_Laguna/image1.svg",
+                        "img/projects/LBC_Laguna/image2.svg",
+                        "img/projects/LBC_Laguna/image3.svg",
+                        "img/projects/LBC_Laguna/image4.svg",
+                        "img/projects/LBC_Laguna/image5.svg"
+                    ]
+                },
+                {
                     "name": "LBC Calauan",
-                    "address": "Calauan, Laguna"
+                    "address": "Calauan, Laguna",
+                    "gallery": [
+                        "img/projects/LBC_Laguna/image1.svg",
+                        "img/projects/LBC_Laguna/image2.svg",
+                        "img/projects/LBC_Laguna/image3.svg",
+                        "img/projects/LBC_Laguna/image4.svg",
+                        "img/projects/LBC_Laguna/image5.svg"
+                    ]
                 },
                 {
                     "name": "LBC Binan",
@@ -239,7 +284,8 @@
         {
             "src": "img/clients/residential/client21.svg",
             "alt": "Suntrust Sentosa",
-            "category": "residential",
+            "categories": ["residential"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Suntrust Sentosa",
@@ -250,7 +296,8 @@
         {
             "src": "img/clients/residential/client22.svg",
             "alt": "Southpoint",
-            "category": "residential",
+            "categories": ["residential"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Southpoint",
@@ -262,7 +309,8 @@
             "src": "img/clients/hospitals/client23.svg",
             "alt": "SPC Medical Center",
             "website": "",
-            "category": "hospital",
+            "categories": ["hospital"],
+            "featured": false,
             "branches": [
                 {
                     "name": "SPC Medical Center",
@@ -274,7 +322,8 @@
             "src": "img/clients/hospitals/client24.svg",
             "alt": "Calamba Medical Center",
             "website": "",
-            "category": "hospital",
+            "categories": ["hospital"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Calamba Medical Center (CMC)",
@@ -286,7 +335,8 @@
             "src": "img/clients/hospitals/client25.svg",
             "alt": "Mount Grace Hospital",
             "website": "",
-            "category": "hospital",
+            "categories": ["hospital"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Mount Grace Hospital",
@@ -298,7 +348,8 @@
             "src": "img/clients/eventplaces/client26.svg",
             "alt": "Calamba Tent The Event Place",
             "website": "",
-            "category": "eventplace",
+            "categories": ["eventplace"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Calamba Tent The Event Place",
@@ -309,7 +360,8 @@
         {
             "src": "img/clients/eventplaces/client27.svg",
             "alt": "H&B Nature Camp",
-            "category": "eventplace",
+            "categories": ["eventplace"],
+            "featured": false,
             "branches": [
                 {
                     "name": "H&B Nature Camp",
@@ -320,7 +372,8 @@
         {
             "src": "img/clients/other/client28.svg",
             "alt": "MNHL Engineering Services",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -331,7 +384,8 @@
         {
             "src": "img/clients/other/client29.svg",
             "alt": "SFM Sales Corp.",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "SFM Sales Corp. (Laguna)",
@@ -350,7 +404,8 @@
         {
             "src": "img/clients/other/client30.svg",
             "alt": "Maxion Bioscience",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Maxion Bioscience",
@@ -361,7 +416,8 @@
         {
             "src": "img/clients/other/client31.svg",
             "alt": "DITO Telecommunity",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "DITO Telecommunity",
@@ -372,7 +428,8 @@
         {
             "src": "img/clients/other/client32.svg",
             "alt": "NUTRIVA Agri-Ventures Corporation",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "NUTRIVA Agri-Ventures Corporation",
@@ -383,7 +440,8 @@
         {
             "src": "img/clients/other/client33.svg",
             "alt": "Motortrade",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
               {
                 "name": "Motortrade (Calamba)",
@@ -398,18 +456,27 @@
         {
             "src": "img/clients/other/client34.svg",
             "alt": "MP Velasco Hardware",
-            "category": "other",
+            "categories": ["other","hardware"],
+            "featured": false,
             "branches": [
                 {
                     "name": "MP Velasco Hardware",
-                    "address": ""
+                    "address": "",
+                    "gallery": [
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image1.svg",
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image2.svg",
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image3.svg",
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image4.svg",
+                        "img/projects/MP_Velasco_Hardware_and_Construction_Supply/image5.svg"
+                    ]
                 }
             ]
         },
         {
             "src": "img/clients/other/client35.svg",
             "alt": "Sun Foreign Exchange",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Sun Foreign Exchange",
@@ -420,7 +487,8 @@
         {
             "src": "img/clients/other/client36.svg",
             "alt": "Tipidsulit Laundromat",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Tipidsulit Laundromat",
@@ -431,7 +499,8 @@
         {
             "src": "img/clients/other/client37.svg",
             "alt": "Cherifer M<anufacturing Plant",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Cherifer M<anufacturing Plant",
@@ -442,7 +511,8 @@
         {
             "src": "img/clients/other/client38.svg",
             "alt": "OJ's Brew",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "OJ's Brew",
@@ -451,10 +521,30 @@
             ]
         },
         {
+            "src": "img/clients/other/client44.svg",
+            "alt": "Sukli Grocery Store",
+            "categories": ["other"],
+            "featured": true,
+            "branches": [
+                {
+                    "name": "Sukli Grocery Store",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/sukli_grocery_store/image1.svg",
+                        "img/projects/sukli_grocery_store/image2.svg",
+                        "img/projects/sukli_grocery_store/image3.svg",
+                        "img/projects/sukli_grocery_store/image4.svg",
+                        "img/projects/sukli_grocery_store/image5.svg"
+                    ]
+                }
+            ]
+        },
+        {
             "src": "img/clients/other/client39.svg",
             "alt": "Black Panther Security Trading Agency Inc.",
             "website": "",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Black Panther Security Trading Agency Inc.",
@@ -465,7 +555,8 @@
         {
             "src": "img/clients/other/client40.svg",
             "alt": "KB Stability Construction Services",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "KB Stability Construction Services",
@@ -476,7 +567,8 @@
         {
             "src": "img/clients/other/client41.svg",
             "alt": "Center for Growth Leadership",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Center for Growth Leadership",
@@ -487,7 +579,8 @@
         {
             "src": "img/clients/other/client42.svg",
             "alt": "Primeluck Trading Corporation",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Primeluck Trading Corporation",
@@ -499,7 +592,8 @@
             "src": "img/clients/other/client43.svg",
             "alt": "Public Safety Savings and Loan Association, Inc.",
             "website": "",
-            "category": "other",
+            "categories": ["other"],
+            "featured": false,
             "branches": [
                 {
                     "name": "Public Safety Savings and Loan Association, Inc.",
