@@ -10,7 +10,7 @@
                 {
                     "name": "Alaminos (Laguna) Water District",
                     "address": "Alaminos, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -24,7 +24,7 @@
                 {
                     "name": "Santa Cruz (Laguna) Water District",
                     "address": "Sta. Cruz, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -38,7 +38,7 @@
                 {
                     "name": "Pagsanjan Water District",
                     "address": "Pagsanjan, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -52,7 +52,7 @@
                 {
                     "name": "DepEd - Division of Tanauan City",
                     "address": "Tanauwan City, Batangas",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -66,7 +66,7 @@
                 {
                     "name": "Lumban Laguna Police",
                     "address": "Lumban, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -79,7 +79,24 @@
                 {
                     "name": "Punta Integrated School",
                     "address": "Punta Calamba, Laguna",
-                    "gallery_folder": "img/projects/Punta_integrated_school"
+                    "gallery": [
+                        "img/projects/Punta_integrated_school/1.jpg",
+                        "img/projects/Punta_integrated_school/2.jpg",
+                        "img/projects/Punta_integrated_school/3.jpg",
+                        "img/projects/Punta_integrated_school/4.jpg",
+                        "img/projects/Punta_integrated_school/5.jpg",
+                        "img/projects/Punta_integrated_school/6.jpg",
+                        "img/projects/Punta_integrated_school/7.jpg",
+                        "img/projects/Punta_integrated_school/8.jpg",
+                        "img/projects/Punta_integrated_school/9.jpg",
+                        "img/projects/Punta_integrated_school/10.jpg",
+                        "img/projects/Punta_integrated_school/11.jpg",
+                        "img/projects/Punta_integrated_school/12.jpg",
+                        "img/projects/Punta_integrated_school/13.jpg",
+                        "img/projects/Punta_integrated_school/14.jpg",
+                        "img/projects/Punta_integrated_school/15.jpg",
+                        "img/projects/Punta_integrated_school/16.jpg"
+                    ]
                 }
             ]
         },
@@ -92,7 +109,14 @@
                 {
                     "name": "Calamba Integrated School",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": "img/projects/Calamba_Integrated_School"
+                    "gallery": [
+                        "img/projects/Calamba_Integrated_School/1.jpg",
+                        "img/projects/Calamba_Integrated_School/2.jpg",
+                        "img/projects/Calamba_Integrated_School/3.jpg",
+                        "img/projects/Calamba_Integrated_School/4.jpg",
+                        "img/projects/Calamba_Integrated_School/5.jpg",
+                        "img/projects/Calamba_Integrated_School/6.jpg"
+                    ]
                 }
             ]
         },
@@ -105,7 +129,7 @@
                 {
                     "name": "Blue Isle Integrated School",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -118,7 +142,7 @@
                 {
                     "name": "Phil Nippon Technical College",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -131,7 +155,7 @@
                 {
                     "name": "Laguna College of Business and Arts",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -144,7 +168,7 @@
                 {
                     "name": "Casa Del Nino Montessori School",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -157,7 +181,7 @@
                 {
                     "name": "Casa Del Nino Montessori School",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -170,7 +194,7 @@
                 {
                     "name": "De La Salle University - Laguna Campus",
                     "address": "Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -184,7 +208,7 @@
                 {
                     "name": "No Ka Oi Philippines Int'l Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -197,7 +221,7 @@
                 {
                     "name": "Na Ka Oi International Trading and Consultancy Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -210,7 +234,7 @@
                 {
                     "name": "Pioneer Adhesives, Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -223,7 +247,7 @@
                 {
                     "name": "Fujitrans",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -236,7 +260,7 @@
                 {
                     "name": "China Comservice",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -250,7 +274,7 @@
                 {
                     "name": "Maxim De Humana International Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -264,17 +288,24 @@
                 {
                     "name": "LBC Calauan",
                     "address": "Calauan, Laguna",
-                    "gallery_folder": "img/projects/lbc_laguna"
+                    "gallery": [
+                        "img/projects/lbc_laguna/1.jpg",
+                        "img/projects/lbc_laguna/2.jpg",
+                        "img/projects/lbc_laguna/3.jpg",
+                        "img/projects/lbc_laguna/4.jpg",
+                        "img/projects/lbc_laguna/5.jpg",
+                        "img/projects/lbc_laguna/6.jpg"
+                    ]
                 },
                 {
                     "name": "LBC Binan",
                     "address": "Binan, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 },
                 {
                     "name": "LBC Nagcarlan",
                     "address": "Nagcarlan, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -287,7 +318,7 @@
                 {
                     "name": "Suntrust Sentosa",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -300,7 +331,7 @@
                 {
                     "name": "Southpoint",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -314,7 +345,7 @@
                 {
                     "name": "SPC Medical Center",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -328,7 +359,7 @@
                 {
                     "name": "Calamba Medical Center (CMC)",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -342,7 +373,7 @@
                 {
                     "name": "Mount Grace Hospital",
                     "address": "Los Banos, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -356,7 +387,7 @@
                 {
                     "name": "Calamba Tent The Event Place",
                     "address": "Calamba, Laguna",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -369,7 +400,17 @@
                 {
                     "name": "H&B Nature Camp",
                     "address": "",
-                    "gallery_folder": "img/projects/H&B_Nature_Camp"
+                    "gallery": [
+                        "img/projects/H&B_Nature_Camp/1.jpg",
+                        "img/projects/H&B_Nature_Camp/2.jpg",
+                        "img/projects/H&B_Nature_Camp/3.jpg",
+                        "img/projects/H&B_Nature_Camp/4.jpg",
+                        "img/projects/H&B_Nature_Camp/5.jpg",
+                        "img/projects/H&B_Nature_Camp/6.jpg",
+                        "img/projects/H&B_Nature_Camp/7.jpg",
+                        "img/projects/H&B_Nature_Camp/8.jpg",
+                        "img/projects/H&B_Nature_Camp/9.jpg"
+                    ]
                 }
             ]
         },
@@ -382,7 +423,7 @@
                 {
                     "name": "Casa Del Nino Montessori School",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -395,17 +436,17 @@
                 {
                     "name": "SFM Sales Corp. (Laguna)",
                     "address": "Laguna" ,
-                    "gallery_folder": ""
+                    "gallery": []
                 },
                 {
                   "name": "SFM Sales Corp. (Batangas)",
                   "address": "Batangas" ,
-                    "gallery_folder": ""
+                    "gallery": []
               },
               {
                 "name": "SFM Sales Corp. (Quezon)",
                 "address": "Quezon" ,
-                    "gallery_folder": ""
+                    "gallery": []
             }
             ]
         },
@@ -418,7 +459,7 @@
                 {
                     "name": "Maxion Bioscience",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -431,7 +472,7 @@
                 {
                     "name": "DITO Telecommunity",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -444,7 +485,7 @@
                 {
                     "name": "NUTRIVA Agri-Ventures Corporation",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -457,12 +498,12 @@
               {
                 "name": "Motortrade (Calamba)",
                 "address": "Parian, Calamba Laguna" ,
-                "gallery_folder": ""
+                "gallery": []
             },
             {
               "name": "Motortrade (Cabuyao)",
               "address": "Pulo, Cabuyao Laguna",
-                "gallery_folder": ""
+                "gallery": []
                }
             ]
         },
@@ -475,7 +516,13 @@
                 {
                     "name": "MP Velasco Hardware",
                     "address": "",
-                    "gallery_folder": "img/projects/MP_Velasco_Hardware_and_Construction_Supply"
+                    "gallery": [
+                        "img/projects/MP_Velasco_Hardware/image1.svg",
+                        "img/projects/MP_Velasco_Hardware/image2.svg",
+                        "img/projects/MP_Velasco_Hardware/image3.svg",
+                        "img/projects/MP_Velasco_Hardware/image4.svg",
+                        "img/projects/MP_Velasco_Hardware/image5.svg"
+                    ]
                 }
             ]
         },
@@ -488,7 +535,7 @@
                 {
                     "name": "Sun Foreign Exchange",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -501,7 +548,7 @@
                 {
                     "name": "Tipidsulit Laundromat",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -514,7 +561,7 @@
                 {
                     "name": "Cherifer M<anufacturing Plant",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -527,7 +574,7 @@
                 {
                     "name": "OJ's Brew",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -540,7 +587,18 @@
                 {
                     "name": "Sukli Grocery Store",
                     "address": "",
-                    "gallery_folder": "img/projects/sukli_grocery_store"
+                    "gallery": [
+                        "img/projects/sukli_grocery_store/1.jpg",
+                        "img/projects/sukli_grocery_store/2.jpg",
+                        "img/projects/sukli_grocery_store/3.jpg",
+                        "img/projects/sukli_grocery_store/4.jpg",
+                        "img/projects/sukli_grocery_store/5.jpg",
+                        "img/projects/sukli_grocery_store/6.jpg",
+                        "img/projects/sukli_grocery_store/7.jpg",
+                        "img/projects/sukli_grocery_store/8.jpg",
+                        "img/projects/sukli_grocery_store/9.jpg"
+
+                    ]
                 }
             ]
         },
@@ -554,7 +612,7 @@
                 {
                     "name": "Black Panther Security Trading Agency Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -567,7 +625,7 @@
                 {
                     "name": "KB Stability Construction Services",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -580,7 +638,7 @@
                 {
                     "name": "Center for Growth Leadership",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -593,7 +651,7 @@
                 {
                     "name": "Primeluck Trading Corporation",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         },
@@ -607,7 +665,7 @@
                 {
                     "name": "Public Safety Savings and Loan Association, Inc.",
                     "address": "",
-                    "gallery_folder": ""
+                    "gallery": []
                 }
             ]
         }

@@ -253,23 +253,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Fetch images from folder if gallery_folder is defined
-  function loadGalleryFromFolder(folderPath) {
-    return fetch(folderPath)
-      .then(res => res.text())
-      .then(text => {
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(text, 'text/html');
-        const links = Array.from(doc.querySelectorAll('a'));
-        return links
-          .map(link => link.getAttribute('href'))
-          .filter(href => /\.(jpe?g|png|webp|svg)$/i.test(href))
-          .map(file => `${folderPath}/${file.replace(/^\/+/, '')}`);
-      })
-      .catch(err => {
-        console.warn(`Failed to load images from ${folderPath}:`, err);
-        return [];
-      });
-  }
+  // function loadGalleryFromFolder(folderPath) {
+  //   return fetch(folderPath)
+  //     .then(res => res.text())
+  //     .then(text => {
+  //       const parser = new DOMParser();
+  //       const doc = parser.parseFromString(text, 'text/html');
+  //       const links = Array.from(doc.querySelectorAll('a'));
+  //       return links
+  //         .map(link => link.getAttribute('href'))
+  //         .filter(href => /\.(jpe?g|png|webp|svg)$/i.test(href))
+  //         .map(file => `${folderPath}/${file.replace(/^\/+/, '')}`);
+  //     })
+  //     .catch(err => {
+  //       console.warn(`Failed to load images from ${folderPath}:`, err);
+  //       return [];
+  //     });
+  // }
 
   // Fetch JSON and load images
   fetch('data/clients.json')
