@@ -66,7 +66,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   /* gap: 1rem; */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
 }
 
 .project-gallery img {
@@ -186,5 +187,25 @@
 }
 .project-gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #categoryFilters {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  #categoryFilters button {
+    white-space: nowrap;
+  }
+
+  #imageModal img {
+    max-width: 95vw;
+    max-height: 70vh;
+  }
+
+  .modal-close,
+  #prevImage,
+  #nextImage {
+    font-size: 1.5rem;
   }
 }

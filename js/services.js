@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const a = document.createElement('a');
         a.className = 'dropdown-item';
         a.href = service.link;
-        a.textContent = service.name;
+        a.textContent = service.title;
         servicesMenu.appendChild(a);
       });
     })

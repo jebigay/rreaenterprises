@@ -97,11 +97,22 @@ document.addEventListener("DOMContentLoaded", () => {
 //       console.error("Error loading services:", error);
 //     });
 
-//   // Render suggestions
-//   const renderSuggestions = (items) => {
+//   function matchesQuery(service, query) {
+//     return (
+//       service.name.toLowerCase().includes(query) ||
+//       service.title?.toLowerCase().includes(query) ||
+//       service.description?.toLowerCase().includes(query)
+//     );
+//   }
+
+//   function renderSuggestions(query) {
 //     suggestionsList.innerHTML = "";
 
-//     if (items.length === 0) {
+//     if (query === "") return;
+
+//     const matches = services.filter(service => matchesQuery(service, query));
+
+//     if (matches.length === 0) {
 //       const li = document.createElement("li");
 //       li.textContent = "Nothing to display";
 //       li.style.color = "#888";
@@ -110,46 +121,29 @@ document.addEventListener("DOMContentLoaded", () => {
 //       return;
 //     }
 
-//     items.forEach(item => {
+//     matches.forEach(match => {
 //       const li = document.createElement("li");
-//       li.textContent = item.name;
+//       li.textContent = match.name;
 //       li.classList.add("autocomplete-item");
 //       li.addEventListener("click", () => {
-//         searchInput.value = item.name;
-//         window.location.href = item.link;
+//         searchInput.value = match.name;
+//         window.location.href = match.link;
 //       });
 //       suggestionsList.appendChild(li);
 //     });
-//   };
-
-//   // Show all on focus if input is empty
-//   searchInput.addEventListener("focus", () => {
-//     if (searchInput.value.trim() === "") {
-//       renderSuggestions(services);
-//     }
-//   });
+//   }
 
 //   // Handle typing for autocomplete
 //   searchInput.addEventListener("input", () => {
 //     const query = searchInput.value.toLowerCase().trim();
-//     if (query === "") {
-//       renderSuggestions([]);
-//       return;
-//     }
-
-//     const matches = services.filter(service =>
-//       service.name.toLowerCase().includes(query)
-//     );
-//     renderSuggestions(matches);
+//     renderSuggestions(query);
 //   });
 
 //   // Handle form submission
 //   searchForm.addEventListener("submit", (e) => {
 //     e.preventDefault();
 //     const query = searchInput.value.toLowerCase().trim();
-//     const match = services.find(service =>
-//       service.name.toLowerCase() === query
-//     );
+//     const match = services.find(service => matchesQuery(service, query));
 
 //     suggestionsList.innerHTML = "";
 
