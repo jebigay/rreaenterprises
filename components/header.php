@@ -15,7 +15,8 @@
     <base href="<?= $_ENV['DOMAIN'] ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="img/homepage/rrea-logo.svg" sizes="16x16">
+    <link rel="icon" href="img/homepage/logo.png" type="img/png">
+    <link rel="shortcut icon" href="img/homepage/logo.png" type="img/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="css/style.css" rel="stylesheet">
