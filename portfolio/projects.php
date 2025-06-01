@@ -22,7 +22,7 @@
   <!-- Modal HTML -->
 <div id="imageModal" class="image-modal hidden">
   <span class="modal-close">&times;</span>
-  <img id="modalImage" src="" alt="">
+  <img id="modalImage" src="" alt="Gallery Image">
   <div class="modal-controls">
     <span id="prevImage">&#10094;</span>
     <span id="nextImage">&#10095;</span>

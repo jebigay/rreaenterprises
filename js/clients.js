@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentGallery = [];
   let currentIndex = 0;
 
-  // Modal controls
+    // Modal controls
   function openModal(images, index = 0) {
     currentGallery = images;
     currentIndex = index;
@@ -209,11 +209,82 @@ document.addEventListener("DOMContentLoaded", () => {
 
   modalClose.onclick = closeModal;
 
-  // Fetch data once
+  // Keyboard support
+  document.addEventListener("keydown", (e) => {
+    if (modal.classList.contains('hidden')) return;
+
+    switch (e.key) {
+      case "ArrowLeft":
+        prevBtn.click();
+        break;
+      case "ArrowRight":
+        nextBtn.click();
+        break;
+      case "Escape":
+        closeModal();
+        break;
+    }
+  });
+
+  // Swipe support
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  modalImg.addEventListener("touchstart", e => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  modalImg.addEventListener("touchend", e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const threshold = 50;
+    const diff = touchEndX - touchStartX;
+
+    if (Math.abs(diff) > threshold) {
+      if (diff > 0) {
+        prevBtn.click(); // Swipe right
+      } else {
+        nextBtn.click(); // Swipe left
+      }
+    }
+  }
+
+  // Fetch images from folder if gallery_folder is defined
+  function loadGalleryFromFolder(folderPath) {
+    return fetch(folderPath)
+      .then(res => res.text())
+      .then(text => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(text, 'text/html');
+        const links = Array.from(doc.querySelectorAll('a'));
+        return links
+          .map(link => link.getAttribute('href'))
+          .filter(href => /\.(jpe?g|png|webp|svg)$/i.test(href))
+          .map(file => `${folderPath}/${file.replace(/^\/+/, '')}`);
+      })
+      .catch(err => {
+        console.warn(`Failed to load images from ${folderPath}:`, err);
+        return [];
+      });
+  }
+
+  // Fetch JSON and load images
   fetch('data/clients.json')
     .then(response => response.json())
-    .then(data => {
+    .then(async data => {
       clientsData = data.clients;
+
+      // Load galleries from folder if not directly provided
+      for (const client of clientsData) {
+        for (const branch of client.branches) {
+          if (!branch.gallery && branch.gallery_folder) {
+            branch.gallery = await loadGalleryFromFolder(branch.gallery_folder);
+          }
+        }
+      }
 
       const uniqueCategories = new Set();
       clientsData.forEach(client => {
@@ -257,64 +328,94 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderGalleries(category) {
-    container.innerHTML = "";
+  container.innerHTML = "";
 
-    const filteredClients = category === "all"
-      ? clientsData
-      : clientsData.filter(client => {
-          const clientCategories = Array.isArray(client.categories)
-            ? client.categories.map(cat => cat.toLowerCase())
-            : [client.category?.toLowerCase()];
-          return clientCategories.includes(category);
-        });
-
-    filteredClients.forEach(client => {
-      client.branches.forEach(branch => {
-        if (!branch.gallery || branch.gallery.length === 0) return;
-
-        const section = document.createElement('div');
-        section.className = 'project-section';
-
-        const title = document.createElement('h3');
-        title.className = 'div-title';
-        title.textContent = branch.name || client.alt;
-
-        const gallery = document.createElement('div');
-        gallery.className = 'project-gallery';
-
-        const maxVisible = 5;
-        branch.gallery.slice(0, maxVisible).forEach((img, index) => {
-        const imgWrapper = document.createElement('div');
-        imgWrapper.classList.add('gallery-img-wrapper');
-
-        const imageTag = document.createElement('img');
-        imageTag.src = img;
-        imageTag.alt = branch.name || client.alt;
-        imageTag.loading = 'lazy';
-
-        // For 5th image (index 4), apply overlay if more images exist
-        if (index === maxVisible - 1 && branch.gallery.length > maxVisible) {
-          const overlay = document.createElement('div');
-          overlay.className = 'more-overlay';
-          overlay.textContent = `+${branch.gallery.length - maxVisible}`;
-
-          imgWrapper.classList.add('view-all-img');
-          imgWrapper.addEventListener('click', () => openModal(branch.gallery, 0));
-
-          imgWrapper.appendChild(imageTag);
-          imgWrapper.appendChild(overlay);
-        } else {
-          imageTag.addEventListener('click', () => openModal(branch.gallery, index));
-          imgWrapper.appendChild(imageTag);
-        }
-
-        gallery.appendChild(imgWrapper);
+  const filteredClients = category === "all"
+    ? clientsData
+    : clientsData.filter(client => {
+        const clientCategories = Array.isArray(client.categories)
+          ? client.categories.map(cat => cat.toLowerCase())
+          : [client.category?.toLowerCase()];
+        return clientCategories.includes(category);
       });
 
-        section.appendChild(title);
-        section.appendChild(gallery);
-        container.appendChild(section);
-      });
+  filteredClients.forEach(client => {
+    client.branches.forEach(branch => {
+      if (!branch.gallery || branch.gallery.length === 0) return;
+
+      /* ---------- card wrapper ---------- */
+      const section = document.createElement('div');
+      section.className = 'project-section';
+
+      /* ---------- single-image thumbnail ---------- */
+      const imgWrapper = document.createElement('div');
+      imgWrapper.classList.add('gallery-img-wrapper');
+      imgWrapper.addEventListener('click', () => openModal(branch.gallery, 0));
+
+      const imageTag = document.createElement('img');
+      imageTag.src = client.src || branch.cover || branch.gallery[0];
+      imageTag.alt = branch.name || client.alt;
+      imageTag.loading = 'lazy';
+
+      const overlay = document.createElement('div');
+      overlay.className = 'more-overlay';
+      overlay.textContent = 'Click to see album';
+
+      imgWrapper.appendChild(imageTag);
+      imgWrapper.appendChild(overlay);
+
+      /* ---------- caption ---------- */
+      const caption = document.createElement('p');
+      caption.className = 'gallery-caption';
+      caption.textContent = branch.name || client.alt;
+
+      section.appendChild(imgWrapper);
+      section.appendChild(caption);
+      container.appendChild(section);
     });
+  });
+}
+});
+
+// Keyboard support
+document.addEventListener("keydown", (e) => {
+  if (modal.classList.contains('hidden')) return;
+
+  switch (e.key) {
+    case "ArrowLeft":
+      prevBtn.click();
+      break;
+    case "ArrowRight":
+      nextBtn.click();
+      break;
+    case "Escape":
+      closeModal();
+      break;
   }
 });
+
+// Swipe support (basic)
+let touchStartX = 0;
+let touchEndX = 0;
+
+modalImg.addEventListener("touchstart", e => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+modalImg.addEventListener("touchend", e => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleSwipe();
+});
+
+function handleSwipe() {
+  const threshold = 50; // minimum swipe distance
+  const diff = touchEndX - touchStartX;
+
+  if (Math.abs(diff) > threshold) {
+    if (diff > 0) {
+      prevBtn.click(); // Swipe right
+    } else {
+      nextBtn.click(); // Swipe left
+    }
+  }
+}
