@@ -8,7 +8,6 @@
     <meta name="author" content="RREA Enterprises">
     <meta name="keywords" content="RREA Enterprises Calamba Laguna, IT Services, Information Communication Technology, QuickBooks, CCTV Installation, Solar Panel Solutions, Solar Power System, Website Development, Computer Repair, Windows Server Configuration, Technology Solutions, IT Support, Web Design, Cloud Services, Networking Solutions, CCTV Surveillance, ICT Services, Solar Energy Solutions, Computer Maintenance">
 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
