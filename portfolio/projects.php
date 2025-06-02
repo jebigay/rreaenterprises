@@ -13,8 +13,8 @@
 
 <div class="page-section" id="clients">
   <div class="clients-container">
-    <h2 class="services-heading">Featured Works</h2>
-    <h3 class="services-subheading">For over a decade, we've partnered with prominent national and international brands, along with a wide array of smaller, niche businesses across various industries. Below is a list of our valued clients.</h3>
+    <h2 class="services-heading">Project Gallery</h2>
+    <h3 class="services-subheading">For over a decade, we've collaborated with leading national and international brands, as well as a diverse range of smaller, specialized businesses across various industries. Below is a selection of project galleries showcasing our work.</h3>
     <div id="categoryFilters" class="filters"></div>
     <div id="projects-container"></div>
 

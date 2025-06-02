@@ -180,7 +180,7 @@
             "solar_types": [
                 {
                     "name": "3KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/offgrid/6pcsOff-Grid.svg",
                     "price": "₱ 254,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -220,7 +220,7 @@
                 },
                 {
                     "name": "5KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/offgrid/10pcsOff-Grid.svg",
                     "price": "₱ 276,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -265,7 +265,7 @@
             "solar_types": [
                 {
                     "name": "8KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/hybrid/16pcsHybrid.svg",
                     "price": "₱ 526,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -305,7 +305,7 @@
                 },
                 {
                     "name": "10KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/hybrid/20pcsHybrid.svg",
                     "price": "₱ 773,000.00",
                     "discounted_price": "",
                     "recommendation": "",
@@ -345,7 +345,7 @@
                 },
                 {
                     "name": "16KW",
-                    "image": "img/services/cctv/4channel/4channel.svg",
+                    "image": "img/services/solar/hybrid/29pcsHybrid.svg",
                     "price": "₱ 910,000.00",
                     "discounted_price": "",
                     "recommendation": "",

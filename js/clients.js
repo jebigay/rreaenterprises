@@ -252,25 +252,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Fetch images from folder if gallery_folder is defined
-  // function loadGalleryFromFolder(folderPath) {
-  //   return fetch(folderPath)
-  //     .then(res => res.text())
-  //     .then(text => {
-  //       const parser = new DOMParser();
-  //       const doc = parser.parseFromString(text, 'text/html');
-  //       const links = Array.from(doc.querySelectorAll('a'));
-  //       return links
-  //         .map(link => link.getAttribute('href'))
-  //         .filter(href => /\.(jpe?g|png|webp|svg)$/i.test(href))
-  //         .map(file => `${folderPath}/${file.replace(/^\/+/, '')}`);
-  //     })
-  //     .catch(err => {
-  //       console.warn(`Failed to load images from ${folderPath}:`, err);
-  //       return [];
-  //     });
-  // }
-
   // Fetch JSON and load images
   fetch('data/clients.json')
     .then(response => response.json())
@@ -286,16 +267,32 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
 
-      const uniqueCategories = new Set();
+      const categoryGalleryMap = new Map();
       clientsData.forEach(client => {
-        if (Array.isArray(client.categories)) {
-          client.categories.forEach(cat => uniqueCategories.add(cat.trim().toLowerCase()));
-        } else if (client.category) {
-          uniqueCategories.add(client.category.trim().toLowerCase());
+        const clientCategories = Array.isArray(client.categories)
+          ? client.categories.map(cat => cat.trim().toLowerCase())
+          : [client.category?.trim().toLowerCase()].filter(Boolean);
+
+        const hasGallery = client.branches?.some(branch => Array.isArray(branch.gallery) && branch.gallery.length > 0);
+
+        if (hasGallery) {
+          clientCategories.forEach(cat => {
+            if (cat) categoryGalleryMap.set(cat, true);
+          });
         }
       });
 
-      const sortedCategories = Array.from(uniqueCategories).sort();
+      let categoriesArray = Array.from(categoryGalleryMap.keys());
+
+      // Move "other" to the end after sorting
+      categoriesArray.sort((a, b) => {
+        if (a === 'other') return 1;
+        if (b === 'other') return -1;
+        return a.localeCompare(b);
+      });
+
+      const sortedCategories = categoriesArray;
+
 
       createFilterButtons(sortedCategories);
       renderGalleries("all");

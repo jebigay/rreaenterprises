@@ -25,12 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (query === "") return;
 
     const matches = services.filter(service =>
-      service.name.toLowerCase().includes(query)
+      service.title.toLowerCase().includes(query)
     );
 
     if (matches.length === 0) {
       const li = document.createElement("li");
-      li.textContent = "Nothing to display";
+      li.textContent = "Nothing to show.";
       li.style.color = "#888";
       li.style.cursor = "default";
       suggestionsList.appendChild(li);
@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     matches.forEach(match => {
       const li = document.createElement("li");
-      li.textContent = match.name;
+      li.textContent = match.title;
       li.classList.add("autocomplete-item");
       li.addEventListener("click", () => {
-        searchInput.value = match.name;
+        searchInput.value = match.title;
         window.location.href = match.link;
       });
       suggestionsList.appendChild(li);
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     const query = searchInput.value.toLowerCase().trim();
     const match = services.find(service =>
-      service.name.toLowerCase() === query
+      service.title.toLowerCase() === query
     );
 
     suggestionsList.innerHTML = "";
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = match.link;
     } else {
       const li = document.createElement("li");
-      li.textContent = "Nothing to display";
+      li.textContent = "Nothing to show";
       li.style.color = "#888";
       li.style.cursor = "default";
       suggestionsList.appendChild(li);

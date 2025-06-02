@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const a = document.createElement('a');
         a.className = 'dropdown-item';
         a.href = service.link;
-        a.textContent = service.title;
+        a.textContent = service.name;
         servicesMenu.appendChild(a);
       });
     })
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = service.link;
-        a.textContent = service.name;
+        a.textContent = service.title;
         li.appendChild(a);
         serviceList.appendChild(li);
       });
