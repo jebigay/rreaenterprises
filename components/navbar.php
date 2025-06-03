@@ -7,7 +7,9 @@ $dotenv->load();
 
 ?>
   <body id="page-top">
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d6fe0320-bebc-4b2a-ae2c-d3311435ae96"> </script>
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d6fe0320-bebc-4b2a-ae2c-d3311435ae96"> 
+    </script>
+    
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger fourstack-title" href="#page-top">

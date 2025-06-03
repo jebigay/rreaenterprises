@@ -9,6 +9,8 @@
               QuickBooks | CCTV | Solar Panels | Website Development | Computer Repairs | Windows Server
             </p>
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/official.rudyaguilar"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:rudyaguilar@rreaenterprises.com"><i class="fas fa-envelope"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/messages/t/100007324115549"><i class="fab fa-facebook-messenger"></i></a>
           </div>
         </div>
 
