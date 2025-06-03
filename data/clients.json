@@ -6,6 +6,7 @@
             "categories": ["government"],
             "website": "",
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Alaminos (Laguna) Water District",
@@ -20,6 +21,7 @@
             "categories": ["government"],
             "website": "",
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Santa Cruz (Laguna) Water District",
@@ -34,6 +36,7 @@
             "categories": ["government"],
             "website": "",
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Pagsanjan Water District",
@@ -48,6 +51,7 @@
             "categories": ["government"],
             "website": "",
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "DepEd - Division of Tanauan City",
@@ -62,6 +66,7 @@
             "categories": ["government"],
             "website": "",
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Lumban Laguna Police",
@@ -79,10 +84,11 @@
         },
         {
             "src": "img/clients/Government.png",
-            "alt": "Crame, Quezon City",
+            "alt": "Other Government Clients",
             "categories": ["government"],
             "website": "",
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "Crame, Quezon City",
@@ -98,6 +104,7 @@
             "alt": "Punta Integrated School",
             "categories": ["school"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Punta Integrated School",
@@ -138,6 +145,7 @@
             "alt": "Calamba Integrated School",
             "categories": ["school"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Calamba Integrated School",
@@ -165,6 +173,7 @@
             "alt": "Blue Isle Integrated School",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Blue Isle Integrated School",
@@ -178,6 +187,7 @@
             "alt": "Phil Nippon Technical College",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Phil Nippon Technical College",
@@ -191,6 +201,7 @@
             "alt": "Laguna College of Business and Arts",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Laguna College of Business and Arts",
@@ -204,6 +215,7 @@
             "alt": "Casa Del Nino Montessori School",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -217,6 +229,7 @@
             "alt": "Casa Del Nino Montessori & Science High School",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -230,6 +243,7 @@
             "alt": "De La Salle University",
             "categories": ["school"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "De La Salle University - Laguna Campus",
@@ -244,6 +258,7 @@
             "website": "",
             "categories": ["international"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "No Ka Oi Philippines Int'l Inc.",
@@ -257,6 +272,7 @@
             "alt": "No Ka Oi International Trading and Consultancy Inc.",
             "categories": ["international"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Na Ka Oi International Trading and Consultancy Inc.",
@@ -270,6 +286,7 @@
             "alt": "Pioneer Adhesives, Inc.",
             "categories": ["international"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Pioneer Adhesives, Inc.",
@@ -283,6 +300,7 @@
             "alt": "Fujitrans",
             "categories": ["international"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Fujitrans",
@@ -296,6 +314,7 @@
             "alt": "China Comservice",
             "categories": ["international"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "China Comservice",
@@ -310,6 +329,7 @@
             "website": "",
             "categories": ["international"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Maxim De Humana International Inc.",
@@ -324,6 +344,7 @@
             "website": "",
             "categories": ["international", "logistics"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "LBC Calauan",
@@ -379,6 +400,7 @@
             "alt": "Suntrust Sentosa",
             "categories": ["residential"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Suntrust Sentosa",
@@ -391,7 +413,8 @@
             "src": "img/clients/residential/client22.svg",
             "alt": "Southpoint",
             "categories": ["residential"],
-            "featured": true,
+            "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Southpoint",
@@ -406,6 +429,7 @@
             "website": "",
             "categories": ["hospital"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "SPC Medical Center",
@@ -420,6 +444,7 @@
             "website": "",
             "categories": ["hospital"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Calamba Medical Center (CMC)",
@@ -434,6 +459,7 @@
             "website": "",
             "categories": ["hospital"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Mount Grace Hospital",
@@ -448,6 +474,7 @@
             "website": "",
             "categories": ["eventplace"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Calamba Tent The Event Place",
@@ -460,7 +487,8 @@
             "src": "img/clients/eventplaces/client27.svg",
             "alt": "H&B Nature Camp",
             "categories": ["eventplace"],
-            "featured": false,
+            "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "H&B Nature Camp",
@@ -484,6 +512,7 @@
             "alt": "MNHL Engineering Services",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Casa Del Nino Montessori School",
@@ -497,6 +526,7 @@
             "alt": "SFM Sales Corp.",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "SFM Sales Corp. (Laguna)",
@@ -520,6 +550,7 @@
             "alt": "Maxion Bioscience",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Maxion Bioscience",
@@ -533,6 +564,7 @@
             "alt": "DITO Telecommunity",
             "categories": ["other"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "DITO Telecommunity",
@@ -545,7 +577,8 @@
             "src": "img/clients/Telco.png",
             "alt": "TELCO sites",
             "categories": ["other"],
-            "featured": true,
+            "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "TELCO Site - Canlubang, Laguna",
@@ -580,6 +613,7 @@
             "alt": "NUTRIVA Agri-Ventures Corporation",
             "categories": ["other"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "NUTRIVA Agri-Ventures Corporation",
@@ -592,7 +626,8 @@
             "src": "img/clients/other/client33.svg",
             "alt": "Motortrade",
             "categories": ["other"],
-            "featured": false,
+            "featured": true,
+            "show": true,
             "branches": [
               {
                 "name": "Motortrade (Calamba)",
@@ -610,7 +645,8 @@
             "src": "img/clients/other/client34.svg",
             "alt": "MP Velasco Hardware",
             "categories": ["hardware"],
-            "featured": false,
+            "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "MP Velasco Hardware",
@@ -640,6 +676,7 @@
             "alt": "Construction Services",
             "categories": ["other","hardware"],
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "Construction Services - Laguna",
@@ -664,6 +701,7 @@
             "alt": "Sun Foreign Exchange",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Sun Foreign Exchange",
@@ -677,6 +715,7 @@
             "alt": "Tipidsulit Laundromat",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Tipidsulit Laundromat",
@@ -690,6 +729,7 @@
             "alt": "Cherifer M<anufacturing Plant",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Cherifer M<anufacturing Plant",
@@ -703,6 +743,7 @@
             "alt": "OJ's Brew",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "OJ's Brew",
@@ -716,6 +757,7 @@
             "alt": "Sukli Grocery Store",
             "categories": ["other"],
             "featured": true,
+            "show": true,
             "branches": [
                 {
                     "name": "Sukli Grocery Store",
@@ -741,6 +783,7 @@
             "website": "",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Black Panther Security Trading Agency Inc.",
@@ -755,6 +798,7 @@
             "website": "",
             "categories": ["other"],
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "Security Agency - Quezon City",
@@ -780,6 +824,7 @@
             "alt": "KB Stability Construction Services",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "KB Stability Construction Services",
@@ -793,6 +838,7 @@
             "alt": "Center for Growth Leadership",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Center for Growth Leadership",
@@ -806,6 +852,7 @@
             "alt": "Primeluck Trading Corporation",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Primeluck Trading Corporation",
@@ -820,6 +867,7 @@
             "website": "",
             "categories": ["other"],
             "featured": false,
+            "show": true,
             "branches": [
                 {
                     "name": "Public Safety Savings and Loan Association, Inc.",
@@ -857,6 +905,7 @@
             "website": "",
             "categories": ["hospital"],
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "Private Hospital 1",
@@ -898,6 +947,7 @@
             "website": "",
             "categories": ["residential"],
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "Residential Halang, Calamba",
@@ -922,6 +972,7 @@
             "website": "",
             "categories": ["other"],
             "featured": false,
+            "show": false,
             "branches": [
                 {
                     "name": "NAIA Food Lounge",

@@ -80,13 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       clientsData = data.clients;
 
-      // Collect all unique categories from clients
+      // Collect all unique categories from clients with show: true
       clientsData.forEach(client => {
-        // Support old "category" string or new "categories" array
-        if (Array.isArray(client.categories)) {
-          client.categories.forEach(cat => uniqueCategories.add(cat));
-        } else if (client.category) {
-          uniqueCategories.add(client.category);
+        if (client.show) {
+          if (Array.isArray(client.categories)) {
+            client.categories.forEach(cat => uniqueCategories.add(cat));
+          } else if (client.category) {
+            uniqueCategories.add(client.category);
+          }
         }
       });
 
@@ -97,62 +98,58 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Dynamically create filter buttons
   function renderFilterButtons() {
-  filtersContainer.innerHTML = "";
+    filtersContainer.innerHTML = "";
 
-  // Create 'All' button
-  const allBtn = document.createElement("button");
-  allBtn.textContent = "All";
-  allBtn.dataset.category = "all";
-  allBtn.classList.add("active");
-  filtersContainer.appendChild(allBtn);
+    const allBtn = document.createElement("button");
+    allBtn.textContent = "All";
+    allBtn.dataset.category = "all";
+    allBtn.classList.add("active");
+    filtersContainer.appendChild(allBtn);
 
-  // Convert Set to Array and sort categories alphabetically,
-  // except "other" which will be placed at the end
-  const categoriesArray = Array.from(uniqueCategories).filter(c => c.toLowerCase() !== "other");
-  categoriesArray.sort();
+    const categoriesArray = Array.from(uniqueCategories).filter(c => c.toLowerCase() !== "other");
+    categoriesArray.sort();
 
-  // Append all categories except "other"
-  categoriesArray.forEach(category => {
-    const btn = document.createElement("button");
-    btn.textContent = category.charAt(0).toUpperCase() + category.slice(1);
-    btn.dataset.category = category;
-    filtersContainer.appendChild(btn);
-  });
+    categoriesArray.forEach(category => {
+      const btn = document.createElement("button");
+      btn.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+      btn.dataset.category = category;
+      filtersContainer.appendChild(btn);
+    });
 
-  // Append "other" category button last if it exists
-  if (uniqueCategories.has("other")) {
-    const otherBtn = document.createElement("button");
-    otherBtn.textContent = "Other";
-    otherBtn.dataset.category = "other";
-    filtersContainer.appendChild(otherBtn);
+    if (uniqueCategories.has("other")) {
+      const otherBtn = document.createElement("button");
+      otherBtn.textContent = "Other";
+      otherBtn.dataset.category = "other";
+      filtersContainer.appendChild(otherBtn);
+    }
+
+    const buttons = filtersContainer.querySelectorAll("button");
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+        renderClients(button.dataset.category);
+      });
+    });
   }
 
-  // Add event listeners
-  const buttons = filtersContainer.querySelectorAll("button");
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      buttons.forEach(btn => btn.classList.remove("active"));
-      button.classList.add("active");
-      renderClients(button.dataset.category);
-    });
-  });
-}
-
-  // Render clients filtered by category
+  // Render clients filtered by category and only those with show: true
   function renderClients(category) {
     clientsGrid.innerHTML = "";
 
-    const filtered = category === "all"
-      ? clientsData
-      : clientsData.filter(client => {
-          // Support both old and new category formats
-          if (Array.isArray(client.categories)) {
-            return client.categories.includes(category);
-          } else if (client.category) {
-            return client.category === category;
-          }
-          return false;
-        });
+    const filtered = clientsData.filter(client => {
+      if (!client.show) return false;
+
+      if (category === "all") return true;
+
+      if (Array.isArray(client.categories)) {
+        return client.categories.includes(category);
+      } else if (client.category) {
+        return client.category === category;
+      }
+
+      return false;
+    });
 
     filtered.forEach(client => {
       const img = document.createElement("img");
