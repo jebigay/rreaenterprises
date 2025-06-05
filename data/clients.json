@@ -963,6 +963,143 @@
                         "img/projects/residential-halang-calamba/8.jpg",
                         "img/projects/residential-halang-calamba/9.jpg"
                     ]
+                },
+                {
+                    "name": "Residential Laguna 1",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-laguna1/1.jpg",
+                        "img/projects/residential-laguna1/2.jpg",
+                        "img/projects/residential-laguna1/3.jpg",
+                        "img/projects/residential-laguna1/4.jpg",
+                        "img/projects/residential-laguna1/5.jpg",
+                        "img/projects/residential-laguna1/6.jpg",
+                        "img/projects/residential-laguna1/7.jpg",
+                        "img/projects/residential-laguna1/8.jpg",
+                        "img/projects/residential-laguna1/9.jpg",
+                        "img/projects/residential-laguna1/10.jpg",
+                        "img/projects/residential-laguna1/11.jpg",
+                        "img/projects/residential-laguna1/12.jpg",
+                        "img/projects/residential-laguna1/13.jpg",
+                        "img/projects/residential-laguna1/14.jpg",
+                        "img/projects/residential-laguna1/15.jpg",
+                        "img/projects/residential-laguna1/16.jpg",
+                        "img/projects/residential-laguna1/17.jpg",
+                        "img/projects/residential-laguna1/18.jpg",
+                        "img/projects/residential-laguna1/19.jpg",
+                        "img/projects/residential-laguna1/20.jpg",
+                        "img/projects/residential-laguna1/21.jpg",
+                        "img/projects/residential-laguna1/22.jpg",
+                        "img/projects/residential-laguna1/23.jpg",
+                        "img/projects/residential-laguna1/24.jpg",
+                        "img/projects/residential-laguna1/25.jpg",
+                        "img/projects/residential-laguna1/26.jpg",
+                        "img/projects/residential-laguna1/27.jpg",
+                        "img/projects/residential-laguna1/28.jpg",
+                        "img/projects/residential-laguna1/29.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Laguna 2",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-laguna2/1.jpg",
+                        "img/projects/residential-laguna2/2.jpg",
+                        "img/projects/residential-laguna2/3.jpg",
+                        "img/projects/residential-laguna2/4.jpg",
+                        "img/projects/residential-laguna2/5.jpg",
+                        "img/projects/residential-laguna2/6.jpg",
+                        "img/projects/residential-laguna2/7.jpg"                    
+                    ]
+                },
+                {
+                    "name": "Residential Cabuyao",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-cabuyao1/1.jpg",
+                        "img/projects/residential-cabuyao1/2.jpg",
+                        "img/projects/residential-cabuyao1/3.jpg",
+                        "img/projects/residential-cabuyao1/4.jpg",
+                        "img/projects/residential-cabuyao1/5.jpg",
+                        "img/projects/residential-cabuyao1/6.jpg",
+                        "img/projects/residential-cabuyao1/7.jpg",
+                        "img/projects/residential-cabuyao1/8.jpg",
+                        "img/projects/residential-cabuyao1/9.jpg",
+                        "img/projects/residential-cabuyao1/10.jpg",
+                        "img/projects/residential-cabuyao1/11.jpg",
+                        "img/projects/residential-cabuyao1/12.jpg",
+                        "img/projects/residential-cabuyao1/13.jpg",
+                        "img/projects/residential-cabuyao1/14.jpg",
+                        "img/projects/residential-cabuyao1/15.jpg",
+                        "img/projects/residential-cabuyao1/16.jpg",
+                        "img/projects/residential-cabuyao1/17.jpg",
+                        "img/projects/residential-cabuyao1/18.jpg",
+                        "img/projects/residential-cabuyao1/19.jpg",
+                        "img/projects/residential-cabuyao1/20.jpg",
+                        "img/projects/residential-cabuyao1/21.jpg",
+                        "img/projects/residential-cabuyao1/22.jpg",
+                        "img/projects/residential-cabuyao1/23.jpg",
+                        "img/projects/residential-laguna1/24.jpg",
+                        "img/projects/residential-cabuyao1/25.jpg",
+                        "img/projects/residential-cabuyao1/26.jpg",
+                        "img/projects/residential-cabuyao1/27.jpg",
+                        "img/projects/residential-cabuyao1/28.jpg",
+                        "img/projects/residential-cabuyao1/29.jpg"                   
+                    ]
+                },
+                {
+                    "name": "Residential - Palo Alto, Calamba",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-paloalto-calamba/1.jpg",
+                        "img/projects/residential-paloalto-calamba/2.jpg",
+                        "img/projects/residential-paloalto-calamba/3.jpg",
+                        "img/projects/residential-paloalto-calamba/4.jpg",
+                        "img/projects/residential-paloalto-calamba/5.jpg",
+                        "img/projects/residential-paloalto-calamba/6.jpg",
+                        "img/projects/residential-paloalto-calamba/7.jpg",
+                        "img/projects/residential-paloalto-calamba/8.jpg",
+                        "img/projects/residential-paloalto-calamba/9.jpg",
+                        "img/projects/residential-paloalto-calamba/10.jpg",
+                        "img/projects/residential-paloalto-calamba/11.jpg",
+                        "img/projects/residential-paloalto-calamba/12.jpg",
+                        "img/projects/residential-paloalto-calamba/13.jpg",
+                        "img/projects/residential-paloalto-calamba/14.jpg",
+                        "img/projects/residential-paloalto-calamba/15.jpg",
+                        "img/projects/residential-paloalto-calamba/16.jpg",
+                        "img/projects/residential-paloalto-calamba/17.jpg",
+                        "img/projects/residential-paloalto-calamba/18.jpg",
+                        "img/projects/residential-paloalto-calamba/19.jpg",
+                        "img/projects/residential-paloalto-calamba/20.jpg",
+                        "img/projects/residential-paloalto-calamba/21.jpg",
+                        "img/projects/residential-paloalto-calamba/22.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Laguna 1",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba1/1.jpg",
+                        "img/projects/residential-calamba1/2.jpg",
+                        "img/projects/residential-calamba1/3.jpg",
+                        "img/projects/residential-calamba1/4.jpg",
+                        "img/projects/residential-calamba1/5.jpg",
+                        "img/projects/residential-calamba1/6.jpg",
+                        "img/projects/residential-calamba1/7.jpg",
+                        "img/projects/residential-calamba1/8.jpg",
+                        "img/projects/residential-calamba1/9.jpg",
+                        "img/projects/residential-calamba1/10.jpg",
+                        "img/projects/residential-calamba1/11.jpg",
+                        "img/projects/residential-calamba1/12.jpg",
+                        "img/projects/residential-calamba1/13.jpg",
+                        "img/projects/residential-calamba1/14.jpg",
+                        "img/projects/residential-calamba1/15.jpg",
+                        "img/projects/residential-calamba1/16.jpg",
+                        "img/projects/residential-calamba1/17.jpg",
+                        "img/projects/residential-calamba1/18.jpg",
+                        "img/projects/residential-calamba1/19.jpg",
+                        "img/projects/residential-calamba1/20.jpg"
+                    ]
                 }
             ]
         },
@@ -984,7 +1121,6 @@
                         "img/projects/NAIA-food-lounge/4.jpg",
                         "img/projects/NAIA-food-lounge/5.jpg",
                         "img/projects/NAIA-food-lounge/6.jpg"
-
                     ]
                 },
                 {
@@ -999,8 +1135,6 @@
                         "img/projects/farm-rosario/6.jpg",
                         "img/projects/farm-rosario/7.jpg",
                         "img/projects/farm-rosario/8.jpg"
-
-
                     ]
                 }
             ]
