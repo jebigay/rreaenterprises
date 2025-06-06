@@ -295,12 +295,12 @@ video {
   }
 
   .intro-heading {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
   }
 
   header.masthead .intro-lead-in {
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px 20px 20px 20px;
     text-align: justify;
   }
@@ -315,6 +315,11 @@ video {
   .contact-form {
     width: 100%;
   }
+  .page-section h2.section-heading {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
 }
 
 
@@ -358,22 +363,11 @@ video {
   .contact-form {
     width: 100%;
   }
-  /* .hero {
-        min-height: auto;
-        padding: 20px;
-    }
+}
 
-    .hero-overlay h2 {
-        font-size: 24px;
-    }
-
-    .hero-overlay p {
-        font-size: 14px;
-    } */
-     
-    .hero {
+  .hero {
     height: fit-content;
-    position: relative;
+    position: block;
     display: flex;
     align-items: left;
     justify-content: left;
@@ -394,7 +388,6 @@ video {
     font-size: 16px;
     text-align: left;
   }
-}
 
 .service-heading {
   margin: 15px 0;
@@ -498,6 +491,18 @@ video {
   .contact-wrapper {
     flex-direction: column;
   }
+  .hero-overlay h2 {
+      font-size: 24px;
+      padding: 50px 0 0 0;
+    }
+
+    .hero-overlay p {
+      padding: 0 0 50px 0;
+      font-size: 14px;
+    }
+    .page-section {
+      padding: 30px 0 30px 0;
+    }
 }
 
 
