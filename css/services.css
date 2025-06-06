@@ -208,6 +208,7 @@
     flex: 0 0 80%; /* Show one card mostly in view, with a bit of the next */
     max-width: 80%;
     scroll-snap-align: start;
+    height: inherit;
   }
 
   .cctv-card {
