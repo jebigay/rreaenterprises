@@ -14,7 +14,7 @@
         "link": "services/solar.php",
         "description": "It is now time to conserve energy and no to shocking electric bills. We conduct free assessment to know your demands and to facilitate better solar power system at a very reasonable price. Satisfaction guaranteed for 10-20 years of durability that we provide.",
         "image": "img/services/solar.svg",
-        "show": false
+        "show": true
       },
       {
         "name": "QuickBooks",
@@ -30,13 +30,21 @@
         "link": "services/ict.php",
         "description": "We offer Information Communication Technology services for computer and laptop repair and supply services, including software and hardware support, Windows Server installation and configuration, networking setup, and ongoing maintenance through retention fees.",
         "image": "img/services/ict.svg",
-        "show": true
+        "show": false
       },
       {
         "name": "Website Development",
         "title": "Website Development",
         "link": "services/webdev.php",
         "description": "Host your website with us on a scalable, secure infrastructure geared towards our Web Design and Development. A completely integrated solution at a very affordable and flexible monthly cost.",
+        "image": "img/services/webdev.svg",
+        "show": false
+      },
+      {
+        "name": "Payroll System",
+        "title": "Payroll System",
+        "link": "services/payroll.php",
+        "description": "Build and host your custom Payroll System with us on a secure, scalable infrastructure tailored for business-critical applications. From employee management to automated payroll processing, we deliver a fully integrated, user-friendly solution with reliable performance — all at an affordable and flexible monthly plan.",
         "image": "img/services/webdev.svg",
         "show": false
       }

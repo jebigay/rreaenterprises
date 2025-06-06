@@ -6,9 +6,21 @@ $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
 ?>
+<!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/<?= $_ENV['TAWKTO_API_KEY'] ?>';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script> -->
+<!--End of Tawk.to Script-->
   <body id="page-top">
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d6fe0320-bebc-4b2a-ae2c-d3311435ae96"> 
-    </script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=<?= $_ENV['ZENDESK_API_KEY'] ?>"> </script>
     
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">

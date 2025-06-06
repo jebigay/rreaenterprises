@@ -187,3 +187,39 @@
         padding: 20px;
     }
 }
+
+/* Default desktop layout – keep grid behavior */
+@media (max-width: 575.98px) {
+  .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    gap: 1rem; /* space between cards */
+    padding-bottom: 1rem;
+  }
+
+  .row::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on mobile */
+  }
+
+  .col-12 {
+    flex: 0 0 80%; /* Show one card mostly in view, with a bit of the next */
+    max-width: 80%;
+    scroll-snap-align: start;
+  }
+
+  .cctv-card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .cctv-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+

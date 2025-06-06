@@ -226,9 +226,10 @@ function renderCctvPackages(channelGroups) {
       const hasDiscount = pkg.discounted_price && pkg.discounted_price !== pkg.price;
 
       if (hasDiscount) {
+        const originalPrice = parseFloat(pkg.price.replace(/[^0-9.]/g, '')) || 0;
+        const increasedPrice = originalPrice + 5000;
         price.innerHTML = `<span class="text-danger fw-bold ms-2">${pkg.discounted_price}</span>
-        <span style="font-size: 12px;" class="text-muted text-decoration-line-through">${pkg.price}</span> 
-          `;
+        <span style="font-size: 12px;" class="text-muted text-decoration-line-through">₱ ${increasedPrice.toLocaleString()}</span>`;
       } else {
         price.className = "text-primary fw-bold";
         price.textContent = pkg.price;
