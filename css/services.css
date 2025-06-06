@@ -198,6 +198,7 @@
     display: flex;
     gap: 1rem; /* space between cards */
     padding-bottom: 1rem;
+    height: inherit;
   }
 
   .row::-webkit-scrollbar {
