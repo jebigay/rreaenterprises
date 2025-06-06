@@ -63,35 +63,121 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //portfolio dropdown
-  document.addEventListener("DOMContentLoaded", function () {
-    // Target the Portfolio dropdown container
-    const portfolioMenu = document.getElementById("portfolioMenu");
+document.addEventListener("DOMContentLoaded", function () {
+  const portfolioMenu = document.getElementById("portfolioMenu");
 
-    // Fetch the navigation data from JSON
-    fetch("data/navigation.json")
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then(data => {
-        const navItems = data.navigation;
+  function createSubMenu(title) {
+    const dropdownItem = document.createElement("li");
+    dropdownItem.className = "dropdown-submenu";
 
-        // Only include IDs 3 and 6
-        const targetIDs = ["3", "6"];
-        const filteredItems = navItems.filter(item => targetIDs.includes(item.id));
+    const link = document.createElement("a");
+    link.className = "dropdown-item dropdown-toggle";
+    link.href = "#";
+    link.textContent = title;
+    link.setAttribute("aria-expanded", "false");
 
-        // Create dropdown links
-        filteredItems.forEach(item => {
-          const link = document.createElement("a");
-          link.className = "dropdown-item";
-          link.href = item.link;
-          link.textContent = item.title;
-          portfolioMenu.appendChild(link);
-        });
-      })
-      .catch(error => {
-        console.error("Failed to load navigation data:", error);
+    dropdownItem.appendChild(link);
+
+    const submenu = document.createElement("ul");
+    submenu.className = "dropdown-menu";
+    submenu.style.display = "none";
+    dropdownItem.appendChild(submenu);
+
+    // Toggle submenu on click
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const isShown = submenu.style.display === "block";
+
+      // Hide all submenus
+      document.querySelectorAll("#portfolioMenu .dropdown-submenu").forEach(item => {
+        item.classList.remove("open");
+        item.querySelector(".dropdown-menu").style.display = "none";
+        item.querySelector("a").setAttribute("aria-expanded", "false");
       });
-  });
+
+      if (!isShown) {
+        submenu.style.display = "block";
+        dropdownItem.classList.add("open");
+        link.setAttribute("aria-expanded", "true");
+      } else {
+        submenu.style.display = "none";
+        dropdownItem.classList.remove("open");
+        link.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    return { dropdownItem, submenu };
+  }
+
+  const { dropdownItem: clientsDropdown, submenu: clientsSubMenu } = createSubMenu("Our Clients");
+  portfolioMenu.appendChild(clientsDropdown);
+
+  const { dropdownItem: projectsDropdown, submenu: projectsSubMenu } = createSubMenu("Our Projects");
+  portfolioMenu.appendChild(projectsDropdown);
+
+  fetch("data/services.json")
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then(data => {
+      const services = data.services;
+
+      services.forEach(service => {
+        const clientServiceItem = document.createElement("li");
+        const clientLink = document.createElement("a");
+        clientLink.className = "dropdown-item";
+        clientLink.href = service.link;
+        clientLink.textContent = service.title;
+        clientServiceItem.appendChild(clientLink);
+        clientsSubMenu.appendChild(clientServiceItem);
+
+        const projectServiceItem = document.createElement("li");
+        const projectLink = document.createElement("a");
+        projectLink.className = "dropdown-item";
+        projectLink.href = service.link;
+        projectLink.textContent = service.title;
+        projectServiceItem.appendChild(projectLink);
+        projectsSubMenu.appendChild(projectServiceItem);
+      });
+    })
+    .catch(error => {
+      console.error("Error loading services:", error);
+    });
+});
+
+
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   // Target the Portfolio dropdown container
+  //   const portfolioMenu = document.getElementById("portfolioMenu");
+
+  //   // Fetch the navigation data from JSON
+  //   fetch("data/navigation.json")
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error("Network response was not ok");
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => {
+  //       const navItems = data.navigation;
+
+  //       // Only include IDs 3 and 6
+  //       const targetIDs = ["3", "6"];
+  //       const filteredItems = navItems.filter(item => targetIDs.includes(item.id));
+
+  //       // Create dropdown links
+  //       filteredItems.forEach(item => {
+  //         const link = document.createElement("a");
+  //         link.className = "dropdown-item";
+  //         link.href = item.link;
+  //         link.textContent = item.title;
+  //         portfolioMenu.appendChild(link);
+  //       });
+  //     })
+  //     .catch(error => {
+  //       console.error("Failed to load navigation data:", error);
+  //     });
+  // });

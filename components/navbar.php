@@ -38,13 +38,22 @@ s0.parentNode.insertBefore(s1,s0);
               </a>
               <div class="dropdown-menu custom-dropdown" id="servicesMenu" aria-labelledby="servicesDropdown"></div>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="portfolioDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Portfolio
               </a>
               <div class="dropdown-menu custom-dropdown" id="portfolioMenu" aria-labelledby="portfolioDropdown">
               </div>
-            </li>
+            </li> -->
+            <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Portfolio
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="portfolioDropdown" id="portfolioMenu">
+    <!-- Our Clients and Our Projects will be appended here -->
+  </ul>
+</li>
+
           </ul>
           <form class="form-inline my-2 my-lg-0 ml-lg-3 search-form position-relative">
   <div class="search-wrapper position-relative w-100">
