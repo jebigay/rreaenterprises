@@ -61,9 +61,9 @@ try {
 
     $mail->setFrom('noreply@rreaenterprises.com', 'RREA Enterprises Contact Form');
     $mail->addAddress($_ENV['MAIL_USERNAME']);
-    // $mail->addCC('roseaguilar11272013@gmail.com', 'Rose Aguilar');
+    $mail->addCC('roseaguilar11272013@gmail.com', 'Rose Aguilar');
     $mail->addCC('rudyaguilar11272013@gmail.com', 'Rudy Aguilar');
-    // $mail->addCC('asteroid3112@gmail.com', 'Asteroid');
+    $mail->addCC('asteroid3112@gmail.com', 'Asteroid');
     $mail->addReplyTo($email, $name);
 
     $mail->isHTML(true);
