@@ -17,6 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error loading services:", error);
     });
 
+  // Match helper
+  function matchService(query) {
+    return services.find(service =>
+      service.name.toLowerCase().includes(query) ||
+      service.title.toLowerCase().includes(query) ||
+      service.description.toLowerCase().includes(query)
+    );
+  }
+
   // Handle typing for autocomplete
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.toLowerCase().trim();
@@ -25,7 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (query === "") return;
 
     const matches = services.filter(service =>
-      service.title.toLowerCase().includes(query)
+      service.title.toLowerCase().includes(query) ||
+      service.name.toLowerCase().includes(query) ||
+      service.description.toLowerCase().includes(query)
     );
 
     if (matches.length === 0) {
@@ -53,9 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const query = searchInput.value.toLowerCase().trim();
-    const match = services.find(service =>
-      service.title.toLowerCase() === query
-    );
+    const match = matchService(query);
 
     suggestionsList.innerHTML = "";
 

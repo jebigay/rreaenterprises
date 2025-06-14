@@ -1,0 +1,1003 @@
+{
+    "services": [
+        {
+            "services_name": "CCTV Surveillance",
+            "service_channels": [
+                {
+                    "channel_name": "4-channel",
+                    "channel_description": "4-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                        {
+                            "type": "Analog 2MP",
+                            "price": "₱ 22,104.00",
+                            "discounted_price": "₱ 21,888.00",
+                            "image": "img/services/cctv/4channel/4channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 2MP Dome Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog-XVR 4CH 1-Sata 4TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/2MP/DATASHEET_Analog-XVR_4ch_1-Sata4TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/2MP/CCTV Quotation-4ch_ANALOG_2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "Analog 5MP",
+                            "price": "₱ 27,104.00",
+                            "discounted_price": "₱ 26,888.00",
+                            "image": "img/services/cctv/4channel/4channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 5MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP-XVR 4CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/5MP/DATASHEET_Analog-5MP_XVR_4ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/5MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/5MP/CCTV Quotation-4ch_ANALOG_5MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 2MP",
+                            "price": "₱ 35,104.00",
+                            "discounted_price": "₱ 34,888.00",
+                            "image": "img/services/cctv/4channel/4channel.svg",
+                            "features": [
+                                {
+                                    "name": "5 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/DATASHEET_5-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP NVR 4CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/DATASHEET_IP-2MP_NVR_4ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_2MP/CCTV Quotation-IP_4ch Package 2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 4MP",
+                            "price": "₱ 39,104.00",
+                            "discounted_price": "₱ 38,888.00",
+                            "image": "img/services/cctv/4channel/4channel.svg",
+                            "features": [
+                                {
+                                    "name": "5 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/DATASHEET_5-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 5MP NVR 8CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/DATASHEET_IP-5MP_NVR_4ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/4channel/IP_4MP/CCTV Quotation-IP_4ch Package 4MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "channel_name": "8-channel",
+                    "channel_description": "8-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                        {
+                            "type": "Analog 2MP",
+                            "price": "₱ 40,104.00",
+                            "discounted_price": "₱ 39,888.00",
+                            "image": "img/services/cctv/8channel/8channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 2MP Dome Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog-XVR 8CH 1-Sata 4TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/2MP/DATASHEET_Analog-XVR_8ch_1-Sata4TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/2MP/CCTV Quotation-8ch_ANALOG_2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "Analog 5MP",
+                            "price": "₱ 49,104.00",
+                            "discounted_price": "₱ 48,888.00",
+                            "image": "img/services/cctv/8channel/8channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 5MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP-XVR 8CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/5MP/DATASHEET_Analog-5MP_XVR_8ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/5MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/5MP/CCTV Quotation-8ch_ANALOG_5MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 2MP",
+                            "price": "₱ 62,104.00",
+                            "discounted_price": "₱ 61,888.00",
+                            "image": "img/services/cctv/8channel/8channel.svg",
+                            "features": [
+                                {
+                                    "name": "8 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/DATASHEET_8-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP NVR 8CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/DATASHEET_IP-2MP_NVR_8ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_2MP/CCTV Quotation-IP_8ch Package 2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 4MP",
+                            "price": "₱ 70,104.00",
+                            "discounted_price": "₱ 69,888.00",
+                            "image": "img/services/cctv/8channel/8channel.svg",
+                            "features": [
+                                {
+                                    "name": "8 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/DATASHEET_8-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP NVR 8CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/DATASHEET_IP-4MP_NVR_8ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/8channel/IP_4MP/CCTV Quotation-IP_8ch Package 4MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "channel_name": "16-channel",
+                    "channel_description": "16-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                        {
+                            "type": "Analog 2MP",
+                            "price": "₱ 79,104.00",
+                            "discounted_price": "₱ 78,888.00",
+                            "image": "img/services/cctv/16channel/16channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 2MP Dome Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog-XVR 16CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/2MP/DATASHEET_Analog-XVR_16ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/2MP/CCTV Quotation-16ch_ANALOG_2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "Analog 5MP",
+                            "price": "₱ 97,104.00",
+                            "discounted_price": "₱ 96,888.00",
+                            "image": "img/services/cctv/16channel/16channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 5MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP-XVR 16CH 2-Sata 20TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/5MP/DATASHEET_Analog-5MP_XVR_16ch_2-Sata20TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/5MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/5MP/CCTV Quotation-16ch_ANALOG_5MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 2MP",
+                            "price": "₱ 114,104.00",
+                            "discounted_price": "₱ 113,888.00",
+                            "image": "img/services/cctv/16channel/16channel.svg",
+                            "features": [
+                                {
+                                    "name": "16 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_2MP/DATASHEET_16-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP NVR 16CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "ffiles/cctv/16channel/IP_2MP/DATASHEET_IP-2MP_NVR_16ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_2MP/CCTV Quotation-IP_16ch Package 2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 4MP",
+                            "price": "₱ 131,104.00",
+                            "discounted_price": "₱ 130,888.00",
+                            "image": "img/services/cctv/16channel/16channel.svg",
+                            "features": [
+                                {
+                                    "name": "16 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/DATASHEET_16-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 4MP NVR 16CH 1-Sata 10TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/DATASHEET_IP-4MP_NVR_16ch_1-Sata10TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/16channel/IP_4MP/CCTV Quotation-IP_16ch Package 4MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "channel_name": "32-channel",
+                    "channel_description": "32-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                    ]
+                },
+                {
+                    "channel_name": "64-channel",
+                    "channel_description": "64-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                    ]
+                },
+                {
+                    "channel_name": "128-channel",
+                    "channel_description": "128-channel CCTV surveillance system suitable for small to medium-sized installations.",
+                    "packages": [
+                    ]
+                }
+                
+            ]
+            
+        },
+        {
+            "services_name": "Solar Power Systems",
+            "service_channels": [
+                {
+                    "channel_name": "Grid Tie",
+                    "channel_description": "",
+                    "packages": [
+                        {
+                            "type": "3KW",
+                            "price": "₱ 123,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/gridtie/6pcs.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "6PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "3KW Grid Tie DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service"
+                            ]
+                        },
+                        {
+                            "type": "5KW",
+                            "price": "₱ 180,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/gridtie/10pcs.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "10PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "5KW Grid Tie DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service"
+                            ]
+                        },
+                        {
+                            "type": "8KW",
+                            "price": "₱ 262,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/gridtie/16pcs.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "16PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "8KW Grid Tie DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service"
+                            ]
+                        },
+                        {
+                            "type": "10KW",
+                            "price": "₱ 333,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/gridtie/20pcs.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "20PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "10KW Grid Tie DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service"
+                            ]
+                        },
+                        {
+                            "type": "50KW",
+                            "price": "₱ 1,417,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/gridtie/90pcs.svg",
+                            "recommendation": "Best for solar farms",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "90PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "50KW Grid Tie DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "channel_name": "Off-Grid",
+                    "channel_description": "",
+                    "packages": [
+                        {
+                            "type": "3KW",
+                            "price": "₱ 254,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/offgrid/6pcsOff-Grid.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "6PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "3KW Off-Grid Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "LifePO4 Battery 48v 100ah",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service",
+                                "Backup Power"
+                            ]
+                        },
+                        {
+                            "type": "5KW",
+                            "price": "₱ 276,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/offgrid/10pcsOff-Grid.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "10PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "3KW Off-Grid Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "LifePO4 Battery 48v 100ah",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service",
+                                "Backup Power"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "channel_name": "Hybrid",
+                    "channel_description": "",
+                    "packages": [
+                        {
+                            "type": "8KW",
+                            "price": "₱ 526,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/hybrid/16pcsHybrid.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "16PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "8KW Hybrid DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "LifePO4 Battery 51.2v 200ah",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service",
+                                "Backup Power"
+                            ]
+                        },
+                        {
+                            "type": "10KW",
+                            "price": "₱ 773,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/hybrid/20pcsHybrid.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "20PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "10KW Hybrid DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "LifePO4 Battery 51.2v 200ah",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service",
+                                "Backup Power"
+                            ]
+                        },
+                        {
+                            "type": "16KW",
+                            "price": "₱ 910,000.00",
+                            "discounted_price": "",
+                            "image": "img/services/solar/hybrid/29pcsHybrid.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "550w Sunova Solar Panel",
+                                    "description": "29PCS",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "16KW Hybrid DEYE Inverter",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "LifePO4 Battery 51.2v 200ah",
+                                    "description": "1PC",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Breaker Set and Wiring",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Connectors and Brackets",
+                                    "description": "1 LOT",
+                                    "file_link": "",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                                "Installation Services",
+                                "Commercial Installation",
+                                "After Sales Service",
+                                "Backup Power"
+                            ]
+                        }
+                    ]
+                }
+                
+            ]
+            
+        }
+    ]
+}
