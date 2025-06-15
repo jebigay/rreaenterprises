@@ -403,9 +403,47 @@
             "show": true,
             "branches": [
                 {
-                    "name": "Suntrust Sentosa",
+                    "name": "Suntrust Sentosa - Residential 1",
                     "address": "Calamba, Laguna",
-                    "gallery": []
+                    "gallery": [
+                        "img/projects/sentosa1/1.jpg",
+                        "img/projects/sentosa1/2.jpg",
+                        "img/projects/sentosa1/3.jpg",
+                        "img/projects/sentosa1/4.jpg"
+                    ]
+                },
+                {
+                    "name": "Suntrust Sentosa - Residential 2",
+                    "address": "Calamba, Laguna",
+                    "gallery": [
+                        "img/projects/sentosa2/1.jpg",
+                        "img/projects/sentosa2/2.jpg",
+                        "img/projects/sentosa2/3.jpg",
+                        "img/projects/sentosa2/4.jpg",
+                        "img/projects/sentosa2/5.jpg",
+                        "img/projects/sentosa2/6.jpg",
+                        "img/projects/sentosa2/7.jpg",
+                        "img/projects/sentosa2/8.jpg"
+                    ]
+                },
+                {
+                    "name": "Suntrust Sentosa - Residential 3",
+                    "address": "Calamba, Laguna",
+                    "gallery": [
+                        "img/projects/sentosa3/1.jpg",
+                        "img/projects/sentosa3/2.jpg",
+                        "img/projects/sentosa3/3.jpg",
+                        "img/projects/sentosa3/4.jpg"
+                    ]
+                },
+                {
+                    "name": "Suntrust Sentosa - Residential 4",
+                    "address": "Calamba, Laguna",
+                    "gallery": [
+                        "img/projects/sentosa4/1.jpg",
+                        "img/projects/sentosa4/2.jpg",
+                        "img/projects/sentosa4/3.jpg"
+                    ]
                 }
             ]
         },
@@ -1076,7 +1114,7 @@
                     ]
                 },
                 {
-                    "name": "Residential Laguna 1",
+                    "name": "Residential Calamba 1",
                     "address": "",
                     "gallery": [
                         "img/projects/residential-calamba1/1.jpg",
@@ -1099,6 +1137,120 @@
                         "img/projects/residential-calamba1/18.jpg",
                         "img/projects/residential-calamba1/19.jpg",
                         "img/projects/residential-calamba1/20.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 2",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba2/1.jpg",
+                        "img/projects/residential-calamba2/2.jpg",
+                        "img/projects/residential-calamba2/3.jpg",
+                        "img/projects/residential-calamba2/4.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 3",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba3/1.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 4",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba4/1.jpg",
+                        "img/projects/residential-calamba4/2.jpg",
+                        "img/projects/residential-calamba4/3.jpg",
+                        "img/projects/residential-calamba4/4.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 5",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba5/1.jpg",
+                        "img/projects/residential-calamba5/2.jpg",
+                        "img/projects/residential-calamba5/3.jpg",
+                        "img/projects/residential-calamba5/4.jpg",
+                        "img/projects/residential-calamba5/5.jpg",
+                        "img/projects/residential-calamba5/6.jpg",
+                        "img/projects/residential-calamba5/7.jpg",
+                        "img/projects/residential-calamba5/8.jpg",
+                        "img/projects/residential-calamba5/9.jpg",
+                        "img/projects/residential-calamba5/10.jpg",
+                        "img/projects/residential-calamba5/11.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 6",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba6/1.jpg",
+                        "img/projects/residential-calamba6/2.jpg",
+                        "img/projects/residential-calamba6/3.jpg",
+                        "img/projects/residential-calamba6/4.jpg",
+                        "img/projects/residential-calamba6/5.jpg",
+                        "img/projects/residential-calamba6/6.jpg",
+                        "img/projects/residential-calamba6/7.jpg",
+                        "img/projects/residential-calamba6/8.jpg",
+                        "img/projects/residential-calamba6/9.jpg",
+                        "img/projects/residential-calamba6/10.jpg",
+                        "img/projects/residential-calamba6/11.jpg",
+                        "img/projects/residential-calamba6/12.jpg",
+                        "img/projects/residential-calamba6/13.jpg",
+                        "img/projects/residential-calamba6/14.jpg",
+                        "img/projects/residential-calamba6/15.jpg",
+                        "img/projects/residential-calamba6/16.jpg",
+                        "img/projects/residential-calamba6/17.jpg",
+                        "img/projects/residential-calamba6/18.jpg",
+                        "img/projects/residential-calamba6/19.jpg",
+                        "img/projects/residential-calamba6/20.jpg",
+                        "img/projects/residential-calamba6/21.jpg",
+                        "img/projects/residential-calamba6/22.jpg",
+                        "img/projects/residential-calamba6/23.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 7",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba7/1.jpg",
+                        "img/projects/residential-calamba7/2.jpg",
+                        "img/projects/residential-calamba7/3.jpg",
+                        "img/projects/residential-calamba7/4.jpg",
+                        "img/projects/residential-calamba7/5.jpg",
+                        "img/projects/residential-calamba7/6.jpg",
+                        "img/projects/residential-calamba7/7.jpg",
+                        "img/projects/residential-calamba7/8.jpg",
+                        "img/projects/residential-calamba7/9.jpg",
+                        "img/projects/residential-calamba7/10.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential Calamba 8",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential-calamba8/1.jpg",
+                        "img/projects/residential-calamba8/2.jpg",
+                        "img/projects/residential-calamba8/3.jpg",
+                        "img/projects/residential-calamba8/4.jpg",
+                        "img/projects/residential-calamba8/5.jpg",
+                        "img/projects/residential-calamba8/6.jpg",
+                        "img/projects/residential-calamba8/7.jpg",
+                        "img/projects/residential-calamba8/8.jpg",
+                        "img/projects/residential-calamba8/9.jpg",
+                        "img/projects/residential-calamba8/10.jpg",
+                        "img/projects/residential-calamba8/11.jpg"
+                    ]
+                },
+                {
+                    "name": "Residential 1",
+                    "address": "",
+                    "gallery": [
+                        "img/projects/residential1/1.jpg",
+                        "img/projects/residential1/2.jpg"
                     ]
                 }
             ]

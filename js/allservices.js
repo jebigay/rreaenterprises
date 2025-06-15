@@ -197,7 +197,7 @@ function renderCctvPackages(channelGroups) {
     div.appendChild(heading);
 
     const channelName = group.channel_name.trim().toLowerCase();
-    if (channelName === "32-channel" || channelName === "64-channel" || channelName === "128-channel") {
+    if (channelName === "64-channel" || channelName === "128-channel") {
       const comingSoon = document.createElement("p");
       comingSoon.className = "text-center text-muted";
       comingSoon.textContent = "Updating soon...";
@@ -236,7 +236,7 @@ function renderCctvPackages(channelGroups) {
         const originalPrice = parseFloat(pkg.price.replace(/[^0-9.]/g, '')) || 0;
         const increasedPrice = originalPrice + 5000;
         price.innerHTML = `<span class="text-danger fw-bold ms-2">${pkg.discounted_price}</span>
-        <span style="font-size: 12px;" class="text-muted text-decoration-line-through">₱ ${increasedPrice.toLocaleString()}</span>`;
+        <span style="font-size: 16px;" class="text-muted text-decoration-line-through">₱ ${increasedPrice.toLocaleString()}.00</span>`;
       } else {
         price.className = "text-primary fw-bold";
         price.textContent = pkg.price;

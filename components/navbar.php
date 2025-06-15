@@ -24,7 +24,7 @@ s0.parentNode.insertBefore(s1,s0);
     
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger fourstack-title" href="#page-top">
+        <a class="navbar-brand js-scroll-trigger fourstack-title" href="index.php">
           <img class="logo-header" src="<?= $_ENV['DOMAIN'] ?>img/homepage/rrea-logo.svg" />
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"

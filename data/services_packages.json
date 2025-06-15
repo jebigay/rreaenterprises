@@ -541,6 +541,170 @@
                     "channel_name": "32-channel",
                     "channel_description": "32-channel CCTV surveillance system suitable for small to medium-sized installations.",
                     "packages": [
+                        {
+                            "type": "Analog 2MP",
+                            "price": "₱ 169,104.00",
+                            "discounted_price": "₱ 168,888.00",
+                            "image": "img/services/cctv/32channel/32channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 2MP Bullet Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/2MP/DATASHEET_Analog 2mp Bullet Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 2MP Dome Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/2MP/DATASHEET_Analog 2mp Dome Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog-XVR 32CH 2-Sata 24TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/2MP/DATASHEET_Analog-XVR_32ch_2-Sata24TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/2MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/2MP/CCTV Quotation-32ch_ANALOG_2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "Analog 5MP",
+                            "price": "₱ 207,104.00",
+                            "discounted_price": "₱ 206,888.00",
+                            "image": "img/services/cctv/32channel/32channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "Analog 5MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/5MP/DATASHEET_Analog 5mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog 5MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/5MP/DATASHEET_Analog 5mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Analog-XVR 32CH 2-Sata 24TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/5MP/DATASHEET_Analog-XVR_32ch_2-Sata24TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/5MP/DATASHEET_Surveillance Hard Disk.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/5MP/CCTV Quotation-32ch_ANALOG_5MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 2MP",
+                            "price": "₱ 232,104.00",
+                            "discounted_price": "₱ 231,888.00",
+                            "image": "img/services/cctv/32channel/32channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "16 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_16-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP NVR 32CH 2-Sata 20TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP-2MP_NVR_32ch_2-Sata20TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/CCTV Quotation-IP_32ch Package 2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        },
+                        {
+                            "type": "IP 4MP",
+                            "price": "₱ 286,104.00",
+                            "discounted_price": "₱ 285,888.00",
+                            "image": "img/services/cctv/32channel/32channel.svg",
+                            "recommendation": "",
+                            "features": [
+                                {
+                                    "name": "16 Port POE Switch",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_16-PORT POE SWITCH.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_INDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "IP 2MP NVR 32CH 2-Sata 20TB",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP-2MP_NVR_32ch_2-Sata20TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Quotation",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_2MP/CCTV Quotation-IP_32ch Package 2MP (Full Colored with Audio).pdf",
+                                    "image": ""
+                                }
+                            ],
+                            "service_inclusions": [
+                            ]
+                        }
                     ]
                 },
                 {
