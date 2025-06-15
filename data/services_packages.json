@@ -674,31 +674,37 @@
                                 {
                                     "name": "16 Port POE Switch",
                                     "description": "",
-                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_16-PORT POE SWITCH.pdf",
+                                    "file_link": "files/cctv/32channel/IP_4MP/DATASHEET_16-PORT POE SWITCH.pdf",
                                     "image": ""
                                 },
                                 {
-                                    "name": "IP 2MP Camera_INDOOR",
+                                    "name": "IP 4MP Camera_INDOOR",
                                     "description": "",
-                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_INDOOR.pdf",
+                                    "file_link": "files/cctv/32channel/IP_4MP/DATASHEET_IP 4mp Camera_INDOOR.pdf",
                                     "image": ""
                                 },
                                 {
-                                    "name": "IP 2MP Camera_OUTDOOR",
+                                    "name": "IP 4MP Camera_OUTDOOR",
                                     "description": "",
-                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP 2mp Camera_OUTDOOR.pdf",
+                                    "file_link": "files/cctv/32channel/IP_4MP/DATASHEET_IP 4mp Camera_OUTDOOR.pdf",
                                     "image": ""
                                 },
                                 {
                                     "name": "IP 2MP NVR 32CH 2-Sata 20TB",
                                     "description": "",
-                                    "file_link": "files/cctv/32channel/IP_2MP/DATASHEET_IP-2MP_NVR_32ch_2-Sata20TB.pdf",
+                                    "file_link": "files/cctv/32channel/IP_4MP/DATASHEET_IP-2MP_NVR_32ch_2-Sata20TB.pdf",
+                                    "image": ""
+                                },
+                                {
+                                    "name": "Surveillance Hard Disk",
+                                    "description": "",
+                                    "file_link": "files/cctv/32channel/IP_4MP/DATASHEET_Surveillance Hard Disk.pdf",
                                     "image": ""
                                 },
                                 {
                                     "name": "Quotation",
                                     "description": "",
-                                    "file_link": "files/cctv/32channel/IP_2MP/CCTV Quotation-IP_32ch Package 2MP (Full Colored with Audio).pdf",
+                                    "file_link": "files/cctv/32channel/IP_4MP/CCTV Quotation-IP_32ch Package 4MP (Full Colored with Audio).pdf",
                                     "image": ""
                                 }
                             ],
